@@ -13,12 +13,26 @@ struct TabBox: View {
     
     var body: some View {
         TabView {
-            DatePicker("Select Date", selection: $selectedDate)
-                .padding(.horizontal)
+            VStack{
+                Text(selectedDate.formatted(date: .abbreviated, time: .standard))
+                    .font(.system(size: 28))
+                    .foregroundColor(Color.accentColor)
+                    .padding()
+                    .animation(.spring(), value: selectedDate)
+                    .frame(width: 500)
+                    .tabItem{
+                        
+                    }
+                DatePicker("Select Date", selection: $selectedDate, displayedComponents: [.date])
+                    .padding(.horizontal)
+                    .datePickerStyle(.graphical)
+                    Divider()
+            }
                 .tabItem {
                     Image(systemName: "1.square.fill")
                     Text("Calender")
                 }
+//                .padding(.vertical, 200)
             Text("The Second Tab")
                 .tabItem {
                     Image(systemName: "2.square.fill")
