@@ -16,6 +16,8 @@
 		DB7037E1292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037E0292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift */; };
 		DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037ED29325369000E2881 /* MyProjectCard.swift */; };
 		DB7037F22933584E000E2881 /* TabBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037F12933584E000E2881 /* TabBox.swift */; };
+		DBD744652933A666004C9392 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD744642933A666004C9392 /* CalendarView.swift */; };
+		DBD744672933A6C0004C9392 /* FormattedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD744662933A6C0004C9392 /* FormattedDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		DB7037E0292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB7037ED29325369000E2881 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		DB7037F12933584E000E2881 /* TabBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBox.swift; sourceTree = "<group>"; };
+		DBD744642933A666004C9392 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		DBD744662933A6C0004C9392 /* FormattedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				DB7037C5292F4A84000E2881 /* ContentView.swift */,
 				DB7037ED29325369000E2881 /* MyProjectCard.swift */,
 				DB7037F12933584E000E2881 /* TabBox.swift */,
+				DBD744642933A666004C9392 /* CalendarView.swift */,
+				DBD744662933A6C0004C9392 /* FormattedDate.swift */,
 				DB7037C7292F4A85000E2881 /* Assets.xcassets */,
 				DB7037C9292F4A85000E2881 /* Preview Content */,
 			);
@@ -263,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD744672933A6C0004C9392 /* FormattedDate.swift in Sources */,
+				DBD744652933A666004C9392 /* CalendarView.swift in Sources */,
 				DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */,
 				DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */,
 				DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */,
