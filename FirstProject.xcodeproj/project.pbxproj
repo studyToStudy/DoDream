@@ -14,6 +14,8 @@
 		DB7037D5292F4A85000E2881 /* FirstProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037D4292F4A85000E2881 /* FirstProjectTests.swift */; };
 		DB7037DF292F4A85000E2881 /* FirstProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037DE292F4A85000E2881 /* FirstProjectUITests.swift */; };
 		DB7037E1292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037E0292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift */; };
+		DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037ED29325369000E2881 /* MyProjectCard.swift */; };
+		DB7037F22933584E000E2881 /* TabBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037F12933584E000E2881 /* TabBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		DB7037DA292F4A85000E2881 /* FirstProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7037DE292F4A85000E2881 /* FirstProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectUITests.swift; sourceTree = "<group>"; };
 		DB7037E0292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB7037ED29325369000E2881 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
+		DB7037F12933584E000E2881 /* TabBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */,
 				DB7037C5292F4A84000E2881 /* ContentView.swift */,
+				DB7037ED29325369000E2881 /* MyProjectCard.swift */,
+				DB7037F12933584E000E2881 /* TabBox.swift */,
 				DB7037C7292F4A85000E2881 /* Assets.xcassets */,
 				DB7037C9292F4A85000E2881 /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */,
 				DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */,
 				DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */,
+				DB7037F22933584E000E2881 /* TabBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
