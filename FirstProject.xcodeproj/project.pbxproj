@@ -102,12 +102,9 @@
 		DB7037C2292F4A84000E2881 /* FirstProject */ = {
 			isa = PBXGroup;
 			children = (
+				DBD7446A29350AB2004C9392 /* View */,
+				DBD7446829350A9F004C9392 /* Model */,
 				DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */,
-				DB7037C5292F4A84000E2881 /* ContentView.swift */,
-				DB7037ED29325369000E2881 /* MyProjectCard.swift */,
-				DB7037F12933584E000E2881 /* TabBox.swift */,
-				DBD744642933A666004C9392 /* CalendarView.swift */,
-				DBD744662933A6C0004C9392 /* FormattedDate.swift */,
 				DB7037C7292F4A85000E2881 /* Assets.xcassets */,
 				DB7037C9292F4A85000E2881 /* Preview Content */,
 			);
@@ -137,6 +134,25 @@
 				DB7037E0292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift */,
 			);
 			path = FirstProjectUITests;
+			sourceTree = "<group>";
+		};
+		DBD7446829350A9F004C9392 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBD744662933A6C0004C9392 /* FormattedDate.swift */,
+				DB7037ED29325369000E2881 /* MyProjectCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBD7446A29350AB2004C9392 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB7037C5292F4A84000E2881 /* ContentView.swift */,
+				DBD744642933A666004C9392 /* CalendarView.swift */,
+				DB7037F12933584E000E2881 /* TabBox.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
