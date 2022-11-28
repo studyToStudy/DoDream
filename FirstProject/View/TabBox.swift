@@ -15,7 +15,7 @@ struct TabBox: View {
         TabView {
                 CalendarView()
                 .tabItem {
-                    Image(systemName: "1.square.fill")
+                    Image(systemName: "calendar")
                     Text("Calender")
                     
                 }
@@ -28,12 +28,12 @@ struct TabBox: View {
             MyProjectCard()
                 .tabItem {
 //                    MyProjectCard()
-                    Image(systemName: "2.square.fill")
+                    Image(systemName: "pencil.line")
                     Text("Write")
                 }
             Text("The Third Tab")
                 .tabItem {
-                    Image(systemName: "3.square.fill")
+                    Image(systemName: "person")
                     Text("My Page")
                 }
                 .badge(10)
