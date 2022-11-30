@@ -38,18 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DB7037C0292F4A84000E2881 /* FirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectApp.swift; sourceTree = "<group>"; };
 		DB7037C5292F4A84000E2881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB7037C7292F4A85000E2881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB7037CA292F4A85000E2881 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DB7037D0292F4A85000E2881 /* FirstProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7037D4292F4A85000E2881 /* FirstProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectTests.swift; sourceTree = "<group>"; };
-		DB7037DA292F4A85000E2881 /* FirstProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7037DE292F4A85000E2881 /* FirstProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectUITests.swift; sourceTree = "<group>"; };
 		DB7037E0292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB7037ED29325369000E2881 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		DB7037F12933584E000E2881 /* TabBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBox.swift; sourceTree = "<group>"; };
+		DB8FF32B2937AC8700518174 /* FirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = FirstProject.app; path = "/Users/junghoo515/Desktop/FirstProject/FirstProject/build/Debug-iphoneos/FirstProject.app"; sourceTree = "<absolute>"; };
+		DB8FF32C2937AC8700518174 /* FirstProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FirstProjectTests.xctest; path = "/Users/junghoo515/Desktop/FirstProject/FirstProject/build/Debug-iphoneos/FirstProjectTests.xctest"; sourceTree = "<absolute>"; };
+		DB8FF32D2937AC8700518174 /* FirstProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FirstProjectUITests.xctest; path = "/Users/junghoo515/Desktop/FirstProject/FirstProject/build/Debug-iphoneos/FirstProjectUITests.xctest"; sourceTree = "<absolute>"; };
 		DBD744642933A666004C9392 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		DBD744662933A6C0004C9392 /* FormattedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,18 +85,7 @@
 				DB7037C2292F4A84000E2881 /* FirstProject */,
 				DB7037D3292F4A85000E2881 /* FirstProjectTests */,
 				DB7037DD292F4A85000E2881 /* FirstProjectUITests */,
-				DB7037C1292F4A84000E2881 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		DB7037C1292F4A84000E2881 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DB7037C0292F4A84000E2881 /* FirstProject.app */,
-				DB7037D0292F4A85000E2881 /* FirstProjectTests.xctest */,
-				DB7037DA292F4A85000E2881 /* FirstProjectUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		DB7037C2292F4A84000E2881 /* FirstProject */ = {
@@ -172,7 +161,7 @@
 			);
 			name = FirstProject;
 			productName = FirstProject;
-			productReference = DB7037C0292F4A84000E2881 /* FirstProject.app */;
+			productReference = DB8FF32B2937AC8700518174 /* FirstProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DB7037CF292F4A85000E2881 /* FirstProjectTests */ = {
@@ -190,7 +179,7 @@
 			);
 			name = FirstProjectTests;
 			productName = FirstProjectTests;
-			productReference = DB7037D0292F4A85000E2881 /* FirstProjectTests.xctest */;
+			productReference = DB8FF32C2937AC8700518174 /* FirstProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		DB7037D9292F4A85000E2881 /* FirstProjectUITests */ = {
@@ -208,7 +197,7 @@
 			);
 			name = FirstProjectUITests;
 			productName = FirstProjectUITests;
-			productReference = DB7037DA292F4A85000E2881 /* FirstProjectUITests.xctest */;
+			productReference = DB8FF32D2937AC8700518174 /* FirstProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -243,7 +232,7 @@
 				Base,
 			);
 			mainGroup = DB7037B7292F4A84000E2881;
-			productRefGroup = DB7037C1292F4A84000E2881 /* Products */;
+			productRefGroup = DB7037B7292F4A84000E2881;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
