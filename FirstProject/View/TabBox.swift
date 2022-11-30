@@ -40,7 +40,7 @@ struct TabBox: View {
                     Text("My Page")
                 }
                 .tag(3)
-                .badge(10)
+                .badge(5)
         }
     }
 }
