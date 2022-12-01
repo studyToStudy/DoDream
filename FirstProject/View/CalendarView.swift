@@ -7,23 +7,23 @@
 
 import SwiftUI
 
-
-struct CalendarView: UIViewRepresentable {
-    let interval: DateInterval
-    
-    func makeUIView(context: Context) -> some UIView {
-        let view = UICalendarView()
-        view.calendar = Calendar(identifier: .gregorian)
-        view.availableDateRange = interval
-        return view
-    }
-    func updateUIView(_ uiView: UIViewType, context: Context) {
+struct CalendarView: View {
+    @State var selectedDate = Date()
+    var body: some View {
+        VStack {
+                    FormattedDate(selectedDate: selectedDate, omitTime: true)
+                    Divider().frame(height: 1)
+                    DatePicker("Select Date", selection: $selectedDate,
+                               in: ...Date(), displayedComponents: .date)
+                        .datePickerStyle(.graphical)
+                    Divider()
+                }
         
     }
 }
 
-//struct CalendarView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CalendarView(interval: <#DateInterval#>)
-//    }
-//}
+struct CalendarView_Previews: PreviewProvider {
+    static var previews: some View {
+        CalendarView()
+    }
+}

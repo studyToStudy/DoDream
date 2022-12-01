@@ -15,7 +15,7 @@ struct TabBox: View {
     var body: some View {
         TabView(selection: $selection) {
             ScrollView{
-                CalendarView(interval: DateInterval(start: .distantPast, end: .distantFuture))
+                CalendarView()
             }.tabItem {
                 Image(systemName: "calendar")
                 Text("Calender")
