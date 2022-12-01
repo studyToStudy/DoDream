@@ -14,12 +14,12 @@ struct TabBox: View {
     
     var body: some View {
         TabView(selection: $selection) {
-                CalendarView()
-                .tabItem {
-                    Image(systemName: "calendar")
-                    Text("Calender")
-                    
-                }
+            ScrollView{
+                CalendarView(interval: DateInterval(start: .distantPast, end: .distantFuture))
+            }.tabItem {
+                Image(systemName: "calendar")
+                Text("Calender")
+            }
                 .tag(1)
 //            .padding(.vertical, 100)
 //                .tabItem {
