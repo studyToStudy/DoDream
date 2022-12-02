@@ -16,6 +16,7 @@
 		DB7037E1292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037E0292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift */; };
 		DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037ED29325369000E2881 /* MyProjectCard.swift */; };
 		DB7037F22933584E000E2881 /* TabBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037F12933584E000E2881 /* TabBox.swift */; };
+		DB8FF32F293A400300518174 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8FF32E293A400300518174 /* ListView.swift */; };
 		DBD744652933A666004C9392 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD744642933A666004C9392 /* CalendarView.swift */; };
 		DBD744672933A6C0004C9392 /* FormattedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD744662933A6C0004C9392 /* FormattedDate.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +51,7 @@
 		DB8FF32B2937AC8700518174 /* FirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = FirstProject.app; path = "/Users/junghoo515/Desktop/FirstProject/FirstProject/build/Debug-iphoneos/FirstProject.app"; sourceTree = "<absolute>"; };
 		DB8FF32C2937AC8700518174 /* FirstProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FirstProjectTests.xctest; path = "/Users/junghoo515/Desktop/FirstProject/FirstProject/build/Debug-iphoneos/FirstProjectTests.xctest"; sourceTree = "<absolute>"; };
 		DB8FF32D2937AC8700518174 /* FirstProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FirstProjectUITests.xctest; path = "/Users/junghoo515/Desktop/FirstProject/FirstProject/build/Debug-iphoneos/FirstProjectUITests.xctest"; sourceTree = "<absolute>"; };
+		DB8FF32E293A400300518174 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		DBD744642933A666004C9392 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		DBD744662933A6C0004C9392 /* FormattedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +142,7 @@
 				DB7037C5292F4A84000E2881 /* ContentView.swift */,
 				DBD744642933A666004C9392 /* CalendarView.swift */,
 				DB7037F12933584E000E2881 /* TabBox.swift */,
+				DB8FF32E293A400300518174 /* ListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				DBD744672933A6C0004C9392 /* FormattedDate.swift in Sources */,
 				DBD744652933A666004C9392 /* CalendarView.swift in Sources */,
 				DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */,
+				DB8FF32F293A400300518174 /* ListView.swift in Sources */,
 				DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */,
 				DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */,
 				DB7037F22933584E000E2881 /* TabBox.swift in Sources */,
