@@ -9,10 +9,20 @@ import SwiftUI
 
 struct ListView: View {
     var body: some View {
-        List {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            List {
+                Section(header: Text("First section")) {
+                    Text("Hello")
+                }
+                Section(
+                    header: Text("Second section"),
+                    footer: Text("Hi")
+                ) {
+                    Text("1")
+                    Text("2")
+                    Text("3")
+                }
+            }
         }
-    }
 }
 
 struct ListView_Previews: PreviewProvider {
