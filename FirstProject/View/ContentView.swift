@@ -15,10 +15,10 @@ struct ContentView: View {
         VStack{
             TabBox()
             if isUnlocked {
-                Text("Unlocked")
-            } else {
-                Text("Locked")
-            }
+                   Text("Unlocked")
+               } else {
+                   Text("Locked")
+               }
         }
         .onAppear(perform: authenticate)
     }
@@ -35,7 +35,7 @@ struct ContentView: View {
             context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { success, authenticationError in
                 // authentication has now completed
                 if success {
-                    // authenticated successfully
+                    isUnlocked = true
                 } else {
                     // there was a problem
                 }
