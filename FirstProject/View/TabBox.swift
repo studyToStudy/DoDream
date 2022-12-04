@@ -34,7 +34,7 @@ struct TabBox: View {
                     Text("Write")
                 }
                 .tag(2)
-            Text("The Third Tab")
+            ListView()
                 .tabItem {
                     Image(systemName: "person")
                     Text("My Page")

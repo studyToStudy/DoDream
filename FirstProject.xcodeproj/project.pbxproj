@@ -48,10 +48,10 @@
 		DB7037E0292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB7037ED29325369000E2881 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		DB7037F12933584E000E2881 /* TabBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBox.swift; sourceTree = "<group>"; };
-		DB8FF32B2937AC8700518174 /* FirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = FirstProject.app; path = "/Users/junghoo515/Desktop/FirstProject/FirstProject/build/Debug-iphoneos/FirstProject.app"; sourceTree = "<absolute>"; };
 		DB8FF32C2937AC8700518174 /* FirstProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FirstProjectTests.xctest; path = "/Users/junghoo515/Desktop/FirstProject/FirstProject/build/Debug-iphoneos/FirstProjectTests.xctest"; sourceTree = "<absolute>"; };
 		DB8FF32D2937AC8700518174 /* FirstProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FirstProjectUITests.xctest; path = "/Users/junghoo515/Desktop/FirstProject/FirstProject/build/Debug-iphoneos/FirstProjectUITests.xctest"; sourceTree = "<absolute>"; };
 		DB8FF32E293A400300518174 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		DB8FF330293BCA8E00518174 /* FirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD744642933A666004C9392 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		DBD744662933A6C0004C9392 /* FormattedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +87,7 @@
 				DB7037C2292F4A84000E2881 /* FirstProject */,
 				DB7037D3292F4A85000E2881 /* FirstProjectTests */,
 				DB7037DD292F4A85000E2881 /* FirstProjectUITests */,
+				DB8FF330293BCA8E00518174 /* FirstProject.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,7 +165,7 @@
 			);
 			name = FirstProject;
 			productName = FirstProject;
-			productReference = DB8FF32B2937AC8700518174 /* FirstProject.app */;
+			productReference = DB8FF330293BCA8E00518174 /* FirstProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DB7037CF292F4A85000E2881 /* FirstProjectTests */ = {
@@ -444,6 +445,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FirstProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -472,6 +474,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FirstProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
