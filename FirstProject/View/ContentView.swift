@@ -14,11 +14,6 @@ struct ContentView: View {
     var body: some View {
         VStack{
             TabBox()
-            if isUnlocked {
-                   Text("Unlocked")
-               } else {
-                   Text("Locked")
-               }
         }
         .onAppear(perform: authenticate)
     }
