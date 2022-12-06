@@ -20,6 +20,7 @@ struct MyProjectCard: View {
                 ListLowView(item: item)
             }
             .onDelete(perform: deleteItem)
+            .onMove(perform: moveItem)
 //            ListLowView(title: "This is the first Title")
         }
         .listStyle(PlainListStyle())
@@ -33,6 +34,10 @@ struct MyProjectCard: View {
     
     func deleteItem(indexSet: IndexSet) {
         items.remove(atOffsets: indexSet)
+    }
+    
+    func moveItem(from: IndexSet, to: Int) {
+        items.move(fromOffsets: from, toOffset: to)
     }
 }
 
