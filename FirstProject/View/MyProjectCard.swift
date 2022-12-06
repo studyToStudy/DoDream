@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct MyProjectCard: View {
-    @State private var textName: String = ""
+//    @State private var textName: String = ""
+    @State var items: [ItemModel] = [
+        ItemModel(title: "첫번쨰", isCompleted: false),
+        ItemModel(title: "두번쨰", isCompleted: true)
+    ]
     
     var body: some View {
         List {
-            ListLowView(title: "This is the first Title")
+            ForEach(items) { item in
+                Text("Hello")
+            }
+//            ListLowView(title: "This is the first Title")
         }
         .navigationTitle("Todo List")
         .navigationBarItems(

@@ -8,19 +8,28 @@
 import SwiftUI
 
 struct ListLowView: View {
-    let title: String
+    let item: ItemModel
     
     var body: some View {
         HStack{
-            Image(systemName: "checkmark.circle")
-            Text(title)
+            Image(systemName: item.isCompleted ? "checkmark.circle" : "circle")
+                .foregroundColor(item.isCompleted ? .green : .red)
+            Text(item.title)
             Spacer()
         }
     }
 }
 
 struct ListLowView_Previews: PreviewProvider {
+    
+    static var item1 = ItemModel(title: "첫번쨰 아이템", isCompleted: false)
+    static var item2 = ItemModel(title: "듀번쨰 아이템", isCompleted: true)
+    
     static var previews: some View {
-        ListLowView(title: "This is The first Item")
+        Group {
+            ListLowView(item: item1)
+            ListLowView(item: item2)
+        }
+        .previewLayout(.sizeThatFits)
     }
 }
