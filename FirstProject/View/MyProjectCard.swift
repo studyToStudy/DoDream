@@ -15,7 +15,9 @@ struct MyProjectCard: View {
             ListLowView(title: "This is the first Title")
         }
         .navigationTitle("Todo List")
-        .navigationBarItems(leading: EditButton(), trailing: NavigationLink("Add", destination: Text("Destination")))
+        .navigationBarItems(
+            leading: EditButton(),
+            trailing: NavigationLink("Add", destination: AddView()))
     }
 }
 

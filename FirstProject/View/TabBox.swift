@@ -21,12 +21,6 @@ struct TabBox: View {
                 Text("Calender")
             }
                 .tag(1)
-//            .padding(.vertical, 100)
-//                .tabItem {
-//                    Image(systemName: "1.square.fill")
-//                    Text("Calender")
-//                }
-//                .padding(.vertical, 200)
             MyProjectCard()
                 .tabItem {
 //                    MyProjectCard()

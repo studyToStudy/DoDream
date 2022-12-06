@@ -13,7 +13,9 @@ struct ContentView: View {
     @State private var isUnlocked = false
     var body: some View {
         VStack{
-            TabBox()
+//            NavigationView {
+                TabBox()
+//            }
         }
         .onAppear(perform: authenticate)
     }
