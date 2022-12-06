@@ -21,7 +21,9 @@ struct TabBox: View {
                 Text("Calender")
             }
                 .tag(1)
-            MyProjectCard()
+            NavigationView(){
+                MyProjectCard()
+            }
                 .tabItem {
 //                    MyProjectCard()
                     Image(systemName: "pencil.line")
