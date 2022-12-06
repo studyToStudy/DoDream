@@ -17,14 +17,22 @@ struct MyProjectCard: View {
     var body: some View {
         List {
             ForEach(items) { item in
-                Text("Hello")
+                ListLowView(item: item)
             }
+            .onDelete(perform: deleteItem)
 //            ListLowView(title: "This is the first Title")
         }
+        .listStyle(PlainListStyle())
         .navigationTitle("Todo List")
         .navigationBarItems(
             leading: EditButton(),
-            trailing: NavigationLink("Add", destination: AddView()))
+            trailing:
+                NavigationLink("Add", destination: AddView())
+        )
+    }
+    
+    func deleteItem(indexSet: IndexSet) {
+        items.remove(atOffsets: indexSet)
     }
 }
 

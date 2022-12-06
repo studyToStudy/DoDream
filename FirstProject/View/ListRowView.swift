@@ -17,6 +17,8 @@ struct ListLowView: View {
             Text(item.title)
             Spacer()
         }
+        .font(.title2)
+        .padding(.vertical, 8)
     }
 }
 
