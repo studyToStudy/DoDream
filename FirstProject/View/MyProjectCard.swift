@@ -9,18 +9,15 @@ import SwiftUI
 
 struct MyProjectCard: View {
 //    @State private var textName: String = ""
-    @State var items: [ItemModel] = [
-        ItemModel(title: "첫번쨰", isCompleted: false),
-        ItemModel(title: "두번쨰", isCompleted: true)
-    ]
+    @EnvironmentObject var listViewModel: ListViewModel
     
     var body: some View {
         List {
-            ForEach(items) { item in
+            ForEach(listViewModel.items) { item in
                 ListLowView(item: item)
             }
-            .onDelete(perform: deleteItem)
-            .onMove(perform: moveItem)
+            .onDelete(perform: listViewModel.deleteItem)
+            .onMove(perform: listViewModel.moveItem)
 //            ListLowView(title: "This is the first Title")
         }
         .listStyle(PlainListStyle())
@@ -31,14 +28,6 @@ struct MyProjectCard: View {
                 NavigationLink("Add", destination: AddView())
         )
     }
-    
-    func deleteItem(indexSet: IndexSet) {
-        items.remove(atOffsets: indexSet)
-    }
-    
-    func moveItem(from: IndexSet, to: Int) {
-        items.move(fromOffsets: from, toOffset: to)
-    }
 }
 
 struct MyProjectCard_Previews: PreviewProvider {
@@ -46,5 +35,6 @@ struct MyProjectCard_Previews: PreviewProvider {
         NavigationView {
             MyProjectCard()
         }
+        .environmentObject(ListViewModel())
     }
 }

@@ -17,6 +17,7 @@ struct FirstProjectApp: App {
             NavigationView{
                 ContentView()
             }
+            .environmentObject(listViewModel)
         }
     }
 }
