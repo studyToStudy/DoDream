@@ -20,6 +20,7 @@ struct AddView: View {
                 .frame(height: 55)
                 .background(Color(hue: 1.0, saturation: 0.0, brightness: 0.908))
                 .cornerRadius(10)
+                .foregroundColor(.black)
             
             Button(action: saveButtonPressed, label: {
                 Text("Save".uppercased())
