@@ -36,13 +36,13 @@ struct TabBox: View {
                     Text("My Page")
                 }
                 .tag(3)
-                .badge(5)
+//                .badge(5)
         }
     }
 }
 
 struct TabBox_Previews: PreviewProvider {
     static var previews: some View {
-        TabBox()
+        TabBox().environmentObject(ListViewModel())
     }
 }

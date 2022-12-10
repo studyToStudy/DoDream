@@ -26,7 +26,7 @@ struct MyProjectCard: View {
 //            ListLowView(title: "This is the first Title")
         }
         .listStyle(PlainListStyle())
-        .navigationTitle("Todo List")
+        .navigationTitle("Todo List⏰")
         .navigationBarItems(
             leading: EditButton(),
             trailing:

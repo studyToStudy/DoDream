@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ListView: View {
     var body: some View {
+        NavigationView {
             List {
                 Section(header: Text("First section")) {
                     Text("Hello")
@@ -23,6 +24,7 @@ struct ListView: View {
                 }
             }
         }
+    }
 }
 
 struct ListView_Previews: PreviewProvider {
