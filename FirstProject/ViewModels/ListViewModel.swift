@@ -17,8 +17,8 @@ class ListViewModel: ObservableObject {
     
     func getItems() {
         let newItems = [
-            ItemModel(title: "첫번쨰", isCompleted: false),
-            ItemModel(title: "두번쨰", isCompleted: true),
+            ItemModel(title: "마라탕먹기🍜", isCompleted: false),
+            ItemModel(title: "신발사기👟", isCompleted: true),
         ]
         items.append(contentsOf: newItems)
     }

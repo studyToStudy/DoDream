@@ -12,7 +12,12 @@ struct ListView: View {
         NavigationView {
             List {
                 Section(header: Text("First section")) {
-                    Text("Hello")
+                    NavigationLink("Hi") {
+                        Text("Hello")
+                    }
+                    NavigationLink("Hello"){
+                        Text("Hello")
+                    }
                 }
                 Section(
                     header: Text("Second section"),

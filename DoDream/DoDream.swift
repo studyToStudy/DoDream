@@ -57,7 +57,7 @@ struct DoDream: Widget {
                             provider: Provider()) { entry in
             DoDreamEntryView(entry: entry)
         }
-        .configurationDisplayName("My Widget")
+        .configurationDisplayName("DoDream")
         .description("This is an example widget.")
     }
 }
