@@ -190,7 +190,7 @@
 				DB4541A42944FA6E004E5DC7 /* FirstProject.entitlements */,
 				DBD7446A29350AB2004C9392 /* View */,
 				DB3BE8D32940DE1700248E00 /* ViewModels */,
-				DBD7446829350A9F004C9392 /* Model */,
+				DBD7446829350A9F004C9392 /* Models */,
 				DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */,
 				DB7037C7292F4A85000E2881 /* Assets.xcassets */,
 				DB7037C9292F4A85000E2881 /* Preview Content */,
@@ -223,13 +223,13 @@
 			path = FirstProjectUITests;
 			sourceTree = "<group>";
 		};
-		DBD7446829350A9F004C9392 /* Model */ = {
+		DBD7446829350A9F004C9392 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				DBD744662933A6C0004C9392 /* FormattedDate.swift */,
 				DB3BE8D0293F788700248E00 /* ItemModel.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		DBD7446A29350AB2004C9392 /* View */ = {

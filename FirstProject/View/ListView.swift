@@ -27,7 +27,7 @@ struct ListView: View {
                     Text("2")
                     Text("3")
                 }
-            }
+            }.navigationBarTitle("My Info", displayMode: .inline)
         }
     }
 }
