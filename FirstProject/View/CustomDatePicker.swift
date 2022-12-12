@@ -69,7 +69,7 @@ struct CustomDatePicker: View {
                     CardView(value: value)
                         .background(
                             Capsule()
-                                .fill(Color("Pink"))
+                                .fill(Color.pink)
                                 .padding(.horizontal, 8)
                                 .opacity(isSameDay(date1: value.date, date2: currentDate) ? 1 : 0)
                         )
@@ -78,6 +78,38 @@ struct CustomDatePicker: View {
                         }
                 }
             }
+            
+            VStack(spacing: 15) {
+                Text("Tasks")
+                    .font(.title2.bold())
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.vertical, 20)
+                
+                if let task = tasks.first(where: { task in
+                    return isSameDay(date1: task.taskDate, date2: currentDate)
+                }){
+                    ForEach(task.task){ task in
+                        VStack(alignment: .leading, spacing: 10) {
+                            Text(task.time.addingTimeInterval(CGFloat.random(in: 0...5000)), style: .time)
+                            Text(task.title)
+                                .font(.title2.bold())
+                        }
+                        .padding(.vertical, 10)
+                        .padding(.horizontal)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .background(
+                            Color.purple
+                                .opacity(0.5)
+                                .cornerRadius(10)
+                        )
+                    }
+                } else {
+                    
+                    Text("No taks Found")
+                }
+            }
+            .padding()
+            .padding(.top, 25)
         }
         .onChange(of: currentMonth) { newValue in
             currentDate = getCurrentMonth()
@@ -95,20 +127,20 @@ struct CustomDatePicker: View {
                 }){
                     Text("\(value.day)")
                         .font(.title3.bold())
-                        .foregroundColor(isSameDay(date1: task.taskDate, date2: currentDate) ? .white : .primary)
+                        .foregroundColor(isSameDay(date1: task.taskDate, date2: currentDate) ? Color.white : Color.primary)
                         .frame(maxWidth: .infinity)
                     
                     Spacer()
                     
                     Circle()
-                        .fill(isSameDay(date1: task.taskDate, date2: currentDate) ? .white : Color("Pink"))
+                        .fill(isSameDay(date1: task.taskDate, date2: currentDate) ? Color.white : Color.pink)
                         .frame(width: 8, height: 8)
                 }
                 else {
                     
                     Text("\(value.day)")
                         .font(.title3.bold())
-                        .foregroundColor(isSameDay(date1: value.date, date2: currentDate) ? .white : .primary)
+                        .foregroundColor(isSameDay(date1: value.date, date2: currentDate) ? Color.white: Color.primary)
                         .frame(maxWidth: .infinity)
                     Spacer()
                 }

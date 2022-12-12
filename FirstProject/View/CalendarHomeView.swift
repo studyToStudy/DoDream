@@ -30,9 +30,23 @@ struct CalendarHomeView: View {
                         .fontWeight(.bold)
                         .padding(.vertical)
                         .frame(maxWidth: .infinity)
-                        .background(Color("Orange"), in: Capsule())
+                        .background(Color.blue, in: Capsule())
+                }
+                
+                Button {
+                    
+                } label: {
+                    Text("리마인더")
+                        .fontWeight(.bold)
+                        .padding(.vertical)
+                        .frame(maxWidth: .infinity)
+                        .background(Color.blue, in: Capsule())
                 }
             }
+            .padding(.horizontal)
+            .padding(.top, 10)
+            .foregroundColor(.white)
+            .background(.ultraThinMaterial)
         }
     }
 }
