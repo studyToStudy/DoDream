@@ -43,7 +43,7 @@ struct CustomDatePicker: View {
                 
                 Button {
                     withAnimation {
-                        currentMonth -= 1
+                        currentMonth += 1
                     }
                 } label: {
                     Image(systemName: "chevron.right")
@@ -83,7 +83,7 @@ struct CustomDatePicker: View {
                 Text("Tasks")
                     .font(.title2.bold())
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.vertical, 20)
+                    .padding(.vertical, 10)
                 
                 if let task = tasks.first(where: { task in
                     return isSameDay(date1: task.taskDate, date2: currentDate)

@@ -10,43 +10,44 @@ import SwiftUI
 struct CalendarHomeView: View {
     
     @State var currentDate: Date = Date()
-    
     var body: some View {
-        
-        ScrollView(.vertical, showsIndicators: false) {
-            
-            VStack(spacing: 20) {
+        NavigationView {
+            ScrollView(.vertical, showsIndicators: false) {
                 
-                CustomDatePicker(currentDate: $currentDate)
-            }
-            .padding(.vertical)
-        }
-        .safeAreaInset(edge: .bottom) {
-            HStack {
-                Button {
+                VStack(spacing: 20) {
                     
-                } label: {
-                    Text("일정 추가")
-                        .fontWeight(.bold)
-                        .padding(.vertical)
-                        .frame(maxWidth: .infinity)
-                        .background(Color.blue, in: Capsule())
+                    CustomDatePicker(currentDate: $currentDate)
                 }
-                
-                Button {
-                    
-                } label: {
-                    Text("리마인더")
-                        .fontWeight(.bold)
-                        .padding(.vertical)
-                        .frame(maxWidth: .infinity)
-                        .background(Color.blue, in: Capsule())
-                }
+                .padding(.vertical)
             }
-            .padding(.horizontal)
-            .padding(.top, 10)
-            .foregroundColor(.white)
-            .background(.ultraThinMaterial)
+            .safeAreaInset(edge: .bottom) {
+                HStack {
+                    Button {
+                        
+                    } label: {
+                        Text("일정 추가")
+                            .fontWeight(.bold)
+                            .padding(.vertical)
+                            .frame(maxWidth: .infinity)
+                            .background(Color.blue, in: Capsule())
+                    }
+                    
+                    Button {
+                        
+                    } label: {
+                        Text("리마인더")
+                            .fontWeight(.bold)
+                            .padding(.vertical)
+                            .frame(maxWidth: .infinity)
+                            .background(Color.blue, in: Capsule())
+                    }
+                }
+                .padding(.horizontal)
+                .padding(.top, 10)
+                .foregroundColor(.white)
+                .background(.blendMode(.colorDodge))
+            }
+            .navigationTitle("Hi")
         }
     }
 }
