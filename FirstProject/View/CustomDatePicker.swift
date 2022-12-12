@@ -22,11 +22,11 @@ struct CustomDatePicker: View {
                 
                 VStack(alignment: .leading, spacing: 10) {
                     
-                    Text(extraData()[0])
+                    Text(extraDate()[0])
                         .font(.caption)
                         .fontWeight(.semibold)
                     
-                    Text(extraData()[1])
+                    Text(extraDate()[1])
                         .font(.title.bold())
                 }
                 
@@ -46,7 +46,7 @@ struct CustomDatePicker: View {
                         currentMonth -= 1
                     }
                 } label: {
-                    Image(systemName: "chevron.rigth")
+                    Image(systemName: "chevron.right")
                         .font(.title2)
                 }
                 
@@ -66,6 +66,16 @@ struct CustomDatePicker: View {
                 ForEach(extractDate()){ value in
 //                    Text("\(value.day)")
 //                        .font(.title3.bold())
+                    CardView(value: value)
+                        .background(
+                            Capsule()
+                                .fill(Color("Pink"))
+                                .padding(.horizontal, 8)
+                                .opacity(isSameDay(date1: value.date, date2: currentDate) ? 1 : 0)
+                        )
+                        .onTapGesture {
+                            currentDate = value.date
+                        }
                 }
             }
         }
@@ -78,13 +88,43 @@ struct CustomDatePicker: View {
     func CardView(value: DateValue)->some View {
         VStack {
             if value.day != -1 {
-                Text("\(value.day)")
-                    .font(.title3.bold())
+                
+                if let task = tasks.first(where: { task in
+                    
+                    return isSameDay(date1: task.taskDate, date2: value.date)
+                }){
+                    Text("\(value.day)")
+                        .font(.title3.bold())
+                        .foregroundColor(isSameDay(date1: task.taskDate, date2: currentDate) ? .white : .primary)
+                        .frame(maxWidth: .infinity)
+                    
+                    Spacer()
+                    
+                    Circle()
+                        .fill(isSameDay(date1: task.taskDate, date2: currentDate) ? .white : Color("Pink"))
+                        .frame(width: 8, height: 8)
+                }
+                else {
+                    
+                    Text("\(value.day)")
+                        .font(.title3.bold())
+                        .foregroundColor(isSameDay(date1: value.date, date2: currentDate) ? .white : .primary)
+                        .frame(maxWidth: .infinity)
+                    Spacer()
+                }
             }
         }
+        .padding(.vertical, 9)
+        .frame(height: 60, alignment: .top)
     }
-    
-    func extraData()-> [String]{
+    //checking dates
+    func isSameDay(date1: Date, date2: Date)-> Bool {
+        let calendar = Calendar.current
+        
+        return calendar.isDate(date1, inSameDayAs: date2)
+    }
+
+    func extraDate()-> [String]{
         let formatter = DateFormatter()
         formatter.dateFormat = "YYYY MMMM"
         
@@ -141,7 +181,7 @@ extension Date {
         
         return range.compactMap{ day -> Date in
             
-            return calendar.date(byAdding: .day, value: day == 1 ? 0 : day, to: startDate)!
+            return calendar.date(byAdding: .day, value: day - 1, to: startDate)!
         }
     }
 }

@@ -13,6 +13,7 @@
 		DB3BE8D52940DE4F00248E00 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8D42940DE4F00248E00 /* ListViewModel.swift */; };
 		DB4541B42945F332004E5DC7 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B32945F332004E5DC7 /* CustomDatePicker.swift */; };
 		DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B629461E5D004E5DC7 /* DateValue.swift */; };
+		DB4541B92946D438004E5DC7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B82946D438004E5DC7 /* Task.swift */; };
 		DB485A202944DC3100C82D5B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A1F2944DC3100C82D5B /* WidgetKit.framework */; };
 		DB485A222944DC3100C82D5B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A212944DC3100C82D5B /* SwiftUI.framework */; };
 		DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */; };
@@ -76,6 +77,7 @@
 		DB4541A42944FA6E004E5DC7 /* FirstProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirstProject.entitlements; sourceTree = "<group>"; };
 		DB4541B32945F332004E5DC7 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
 		DB4541B629461E5D004E5DC7 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		DB4541B82946D438004E5DC7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		DB485A1D2944DC3100C82D5B /* DoDreamExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = DoDreamExtension.appex; path = "/Users/junghoo515/Desktop/FirstProject/FirstProject/build/Debug-iphoneos/DoDreamExtension.appex"; sourceTree = "<absolute>"; };
 		DB485A1F2944DC3100C82D5B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		DB485A212944DC3100C82D5B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -203,6 +205,7 @@
 				DBD744662933A6C0004C9392 /* FormattedDate.swift */,
 				DB3BE8D0293F788700248E00 /* ItemModel.swift */,
 				DB4541B629461E5D004E5DC7 /* DateValue.swift */,
+				DB4541B82946D438004E5DC7 /* Task.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */,
 				DB7037F22933584E000E2881 /* TabBox.swift in Sources */,
 				DB4541B42945F332004E5DC7 /* CustomDatePicker.swift in Sources */,
+				DB4541B92946D438004E5DC7 /* Task.swift in Sources */,
 				DB3BE8D52940DE4F00248E00 /* ListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

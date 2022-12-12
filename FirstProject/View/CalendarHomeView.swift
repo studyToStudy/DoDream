@@ -26,7 +26,7 @@ struct CalendarHomeView: View {
                 Button {
                     
                 } label: {
-                    Text("Add Task")
+                    Text("일정 추가")
                         .fontWeight(.bold)
                         .padding(.vertical)
                         .frame(maxWidth: .infinity)
