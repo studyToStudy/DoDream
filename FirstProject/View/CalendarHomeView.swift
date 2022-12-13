@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct CalendarHomeView: View {
-    
+    @State private var goesToDetail: Bool = false
     @State var currentDate: Date = Date()
     var body: some View {
-        NavigationView {
+//        NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
                 
                 VStack(spacing: 20) {
@@ -22,33 +22,33 @@ struct CalendarHomeView: View {
             }
             .safeAreaInset(edge: .bottom) {
                 HStack {
-                    Button {
-                        
+                    NavigationLink{
+                        AddView()
                     } label: {
                         Text("일정 추가")
-                            .fontWeight(.bold)
-                            .padding(.vertical)
-                            .frame(maxWidth: .infinity)
-                            .background(Color.blue, in: Capsule())
-                    }
-                    
-                    Button {
+                         .fontWeight(.bold)
+                         .padding(.vertical)
+                        .frame(maxWidth: .infinity)
+                        .background(Color.blue, in: Capsule())
                         
-                    } label: {
-                        Text("리마인더")
-                            .fontWeight(.bold)
-                            .padding(.vertical)
-                            .frame(maxWidth: .infinity)
-                            .background(Color.blue, in: Capsule())
                     }
+//                    Button {
+//
+//                    } label: {
+//                        Text("일정 추가")
+//                            .fontWeight(.bold)
+//                            .padding(.vertical)
+//                            .frame(maxWidth: .infinity)
+//                            .background(Color.blue, in: Capsule())
+//                    }
+                    
                 }
                 .padding(.horizontal)
                 .padding(.top, 10)
                 .foregroundColor(.white)
                 .background(.blendMode(.colorDodge))
             }
-            .navigationTitle("Hi")
-        }
+//        }
     }
 }
 
