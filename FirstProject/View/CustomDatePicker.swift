@@ -64,8 +64,6 @@ struct CustomDatePicker: View {
             
             LazyVGrid(columns: columns, spacing: 15) {
                 ForEach(extractDate()){ value in
-//                    Text("\(value.day)")
-//                        .font(.title3.bold())
                     CardView(value: value)
                         .background(
                             Capsule()

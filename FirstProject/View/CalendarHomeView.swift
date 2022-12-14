@@ -11,7 +11,6 @@ struct CalendarHomeView: View {
     @State private var goesToDetail: Bool = false
     @State var currentDate: Date = Date()
     var body: some View {
-//        NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
                 
                 VStack(spacing: 20) {
@@ -26,29 +25,18 @@ struct CalendarHomeView: View {
                         AddView()
                     } label: {
                         Text("일정 추가")
-                         .fontWeight(.bold)
-                         .padding(.vertical)
-                        .frame(maxWidth: .infinity)
-                        .background(Color.blue, in: Capsule())
+                            .fontWeight(.bold)
+                            .padding(.vertical)
+                            .frame(maxWidth: .infinity)
+                            .background(Color.blue, in: Capsule())
                         
                     }
-//                    Button {
-//
-//                    } label: {
-//                        Text("일정 추가")
-//                            .fontWeight(.bold)
-//                            .padding(.vertical)
-//                            .frame(maxWidth: .infinity)
-//                            .background(Color.blue, in: Capsule())
-//                    }
-                    
                 }
                 .padding(.horizontal)
                 .padding(.top, 10)
                 .foregroundColor(.white)
                 .background(.blendMode(.colorDodge))
             }
-//        }
     }
 }
 
