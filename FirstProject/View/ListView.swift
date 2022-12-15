@@ -20,6 +20,7 @@ struct ListView: View {
                 Section(header: Text("DoDream Challenger")) {
                     NavigationLink("두드림") {
                         Text("자신만의 목표를 이뤄가려는 당신을 위해")
+                            .font(.system(size: 20, weight: .black, design: .rounded))
                             .multilineTextAlignment(.center)
                     }
                     NavigationLink("천리길도 한 걸음 부터"){
@@ -27,6 +28,7 @@ struct ListView: View {
                              아무리 크고 많은 것이라도
                              그 처음은 아주 작은 것에서 부터 시작된다
                              """)
+                        .font(.system(size: 20, weight: .black, design: .rounded))
                         .multilineTextAlignment(.center)
                     }
                 }

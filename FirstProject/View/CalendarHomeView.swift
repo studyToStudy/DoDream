@@ -25,7 +25,7 @@ struct CalendarHomeView: View {
                     NavigationLink{
                         AddView()
                     } label: {
-                        Text("Dream 추가")
+                        Text("오늘 할 일 추가")
                             .fontWeight(.bold)
                             .padding(.vertical)
                             .frame(maxWidth: .infinity)

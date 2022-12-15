@@ -32,8 +32,8 @@ struct TabBox: View {
                 .tag(2)
             ListView()
                 .tabItem {
-                    Image(systemName: "person")
-                    Text("My Page")
+                    Image(systemName: "flame")
+                    Text("Challenge")
                 }
                 .tag(3)
 //                .badge(5)
