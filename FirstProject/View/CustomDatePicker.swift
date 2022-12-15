@@ -64,6 +64,7 @@ struct CustomDatePicker: View {
             
             LazyVGrid(columns: columns, spacing: 15) {
                 ForEach(extractDate()){ value in
+
                     CardView(value: value)
                         .background(
                             Capsule()
@@ -78,33 +79,33 @@ struct CustomDatePicker: View {
             }
             
             VStack(spacing: 15) {
-                Text("Tasks")
-                    .font(.title2.bold())
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.vertical, 10)
-                
-                if let task = tasks.first(where: { task in
-                    return isSameDay(date1: task.taskDate, date2: currentDate)
-                }){
-                    ForEach(task.task){ task in
-                        VStack(alignment: .leading, spacing: 10) {
-                            Text(task.time.addingTimeInterval(CGFloat.random(in: 0...5000)), style: .time)
-                            Text(task.title)
-                                .font(.title2.bold())
-                        }
-                        .padding(.vertical, 10)
-                        .padding(.horizontal)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(
-                            Color.purple
-                                .opacity(0.5)
-                                .cornerRadius(10)
-                        )
-                    }
-                } else {
-                    
-                    Text("No taks Found")
-                }
+//                Text("Tasks")
+//                    .font(.title2.bold())
+//                    .frame(maxWidth: .infinity, alignment: .leading)
+//                    .padding(.vertical, 10)
+//
+//                if let task = tasks.first(where: { task in
+//                    return isSameDay(date1: task.taskDate, date2: currentDate)
+//                }){
+//                    ForEach(task.task){ task in
+//                        VStack(alignment: .leading, spacing: 10) {
+//                            Text(task.time.addingTimeInterval(CGFloat.random(in: 0...5000)), style: .time)
+//                            Text(task.title)
+//                                .font(.title2.bold())
+//                        }
+//                        .padding(.vertical, 10)
+//                        .padding(.horizontal)
+//                        .frame(maxWidth: .infinity, alignment: .leading)
+//                        .background(
+//                            Color.purple
+//                                .opacity(0.5)
+//                                .cornerRadius(10)
+//                        )
+//                    }
+//                } else {
+//                        Text("No taks Found")
+//                }
+                Text("D-Day to year")
             }
             .padding()
             .padding(.top, 25)

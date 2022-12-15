@@ -8,26 +8,29 @@
 import SwiftUI
 
 struct ListView: View {
+    
+    @EnvironmentObject var listViewModel: ListViewModel
+    
     var body: some View {
+        
+
+        
         NavigationView {
             List {
-                Section(header: Text("First section")) {
-                    NavigationLink("Hi") {
-                        Text("Hello")
+                Section(header: Text("DoDream Challenger")) {
+                    NavigationLink("두드림") {
+                        Text("자신만의 목표를 이뤄가려는 당신을 위해")
+                            .multilineTextAlignment(.center)
                     }
-                    NavigationLink("Hello"){
-                        Text("Hello")
+                    NavigationLink("천리길도 한 걸음 부터"){
+                        Text("""
+                             아무리 크고 많은 것이라도
+                             그 처음은 아주 작은 것에서 부터 시작된다
+                             """)
+                        .multilineTextAlignment(.center)
                     }
                 }
-                Section(
-                    header: Text("Second section"),
-                    footer: Text("Hi")
-                ) {
-                    Text("1")
-                    Text("2")
-                    Text("3")
-                }
-            }.navigationBarTitle("My Info", displayMode: .inline)
+            }.navigationBarTitle("Challenge", displayMode: .inline)
         }
     }
 }

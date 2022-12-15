@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CalendarHomeView: View {
+    @EnvironmentObject var listViewModel: ListViewModel
     @State private var goesToDetail: Bool = false
     @State var currentDate: Date = Date()
     var body: some View {
@@ -24,7 +25,7 @@ struct CalendarHomeView: View {
                     NavigationLink{
                         AddView()
                     } label: {
-                        Text("일정 추가")
+                        Text("Dream 추가")
                             .fontWeight(.bold)
                             .padding(.vertical)
                             .frame(maxWidth: .infinity)

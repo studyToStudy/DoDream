@@ -22,7 +22,6 @@ class ListViewModel: ObservableObject {
         ]
         items.append(contentsOf: newItems)
     }
-    
     func deleteItem(indexSet: IndexSet) {
         items.remove(atOffsets: indexSet)
     }
