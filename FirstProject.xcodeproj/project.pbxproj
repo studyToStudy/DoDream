@@ -15,6 +15,7 @@
 		DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B629461E5D004E5DC7 /* DateValue.swift */; };
 		DB4541B92946D438004E5DC7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B82946D438004E5DC7 /* Task.swift */; };
 		DB4541BC294B6306004E5DC7 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB4541BA294B6305004E5DC7 /* CoreData.xcdatamodeld */; };
+		DB4541BE294CAF1A004E5DC7 /* PermissionCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541BD294CAF1A004E5DC7 /* PermissionCalendar.swift */; };
 		DB485A202944DC3100C82D5B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A1F2944DC3100C82D5B /* WidgetKit.framework */; };
 		DB485A222944DC3100C82D5B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A212944DC3100C82D5B /* SwiftUI.framework */; };
 		DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */; };
@@ -80,6 +81,7 @@
 		DB4541B629461E5D004E5DC7 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
 		DB4541B82946D438004E5DC7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		DB4541BB294B6306004E5DC7 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		DB4541BD294CAF1A004E5DC7 /* PermissionCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionCalendar.swift; sourceTree = "<group>"; };
 		DB485A1D2944DC3100C82D5B /* DoDreamExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = DoDreamExtension.appex; path = "/Users/junghoo515/Desktop/FirstProject/FirstProject/build/Debug-iphoneos/DoDreamExtension.appex"; sourceTree = "<absolute>"; };
 		DB485A1F2944DC3100C82D5B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		DB485A212944DC3100C82D5B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				DB3BE8D42940DE4F00248E00 /* ListViewModel.swift */,
+				DB4541BD294CAF1A004E5DC7 /* PermissionCalendar.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				DBD744652933A666004C9392 /* CalendarHomeView.swift in Sources */,
 				DB3BE8CF293E48B200248E00 /* AddView.swift in Sources */,
 				DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */,
+				DB4541BE294CAF1A004E5DC7 /* PermissionCalendar.swift in Sources */,
 				DB3BE8CD293E380600248E00 /* ListRowView.swift in Sources */,
 				DB8FF32F293A400300518174 /* ListView.swift in Sources */,
 				DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */,
@@ -630,6 +634,7 @@
 				DEVELOPMENT_TEAM = 477F64NLSP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "DoDream이 사용자의 캘린더 정보를 받아오고자 합니다.";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "개인정보를 보호하기 위해 FaceID를 사용헙니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -662,6 +667,7 @@
 				DEVELOPMENT_TEAM = 477F64NLSP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "DoDream이 사용자의 캘린더 정보를 받아오고자 합니다.";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "개인정보를 보호하기 위해 FaceID를 사용헙니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
