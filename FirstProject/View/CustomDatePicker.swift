@@ -6,13 +6,19 @@
 //
 
 import SwiftUI
+import EventKitUI
 
 struct CustomDatePicker: View {
     @Binding var currentDate: Date
     
     @State var currentMonth: Int = 0
+    var eventStore = EKEventStore()
     
     var body: some View {
+        
+//        let eventStore = EKEventStore()
+
+        
         VStack(spacing: 35) {
             
             let days: [String] =
@@ -148,7 +154,8 @@ struct CustomDatePicker: View {
         .padding(.vertical, 9)
         .frame(height: 60, alignment: .top)
     }
-    //checking dates
+    //checking date
+    
     func isSameDay(date1: Date, date2: Date)-> Bool {
         let calendar = Calendar.current
         
@@ -191,6 +198,18 @@ struct CustomDatePicker: View {
         }
         return days
     }
+//     calendar Event Code
+//    func insertEvent(store: EKEventStore) {
+//        // get list of all calendars
+//        let calendars = store.calendars(for: .event)
+//
+//        let today = Date()
+//        let newEvent = EKEvent(eventStore: eventStore)
+//        newEvent.calendar = eventStore.defaultCalendarForNewEvents
+//        newEvent.title = "My first event!"
+//        newEvent.startDate = today
+//        newEvent.endDate = Calendar.current.date(byAdding: .day, value: 1, to: today)
+//    }
 }
 
 struct CustomDatePicker_Previews: PreviewProvider {
