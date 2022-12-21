@@ -31,6 +31,14 @@ struct ListView: View {
                         .font(.system(size: 20, weight: .black, design: .rounded))
                         .multilineTextAlignment(.center)
                     }
+                    NavigationLink("쓰러뜨린 도전자들"){
+                        Text("""
+                             많은 문제들을 해결해 온 자
+                             """)
+                        .font(.system(size: 20, weight: .black, design: .rounded))
+                        .multilineTextAlignment(.center)
+                    }
+
                 }
             }.navigationBarTitle("Challenge", displayMode: .inline)
         }
