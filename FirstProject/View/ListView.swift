@@ -38,7 +38,13 @@ struct ListView: View {
                         .font(.system(size: 20, weight: .black, design: .rounded))
                         .multilineTextAlignment(.center)
                     }
-
+                    NavigationLink("지쳐가는 이들에게"){
+                        Text("""
+                             삶이 있는 한 희망은 있다 - 키케로
+                             """)
+                        .font(.system(size: 20, weight: .black, design: .rounded))
+                        .multilineTextAlignment(.center)
+                    }
                 }
             }.navigationBarTitle("Challenge", displayMode: .inline)
         }
