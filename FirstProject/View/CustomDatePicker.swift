@@ -14,10 +14,9 @@ struct CustomDatePicker: View {
     @State var currentMonth: Int = 0
     var eventStore = EKEventStore()
     
+    
+    
     var body: some View {
-        
-//        let eventStore = EKEventStore()
-
         
         VStack(spacing: 35) {
             

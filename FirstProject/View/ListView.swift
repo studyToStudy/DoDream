@@ -45,6 +45,13 @@ struct ListView: View {
                         .font(.system(size: 20, weight: .black, design: .rounded))
                         .multilineTextAlignment(.center)
                     }
+                    NavigationLink("버티는가 이겨가는가"){
+                        Text("""
+                             오랫동안 꿈을 그리는 사람은 마침내 그 꿈을 닮아 간다, - 앙드레 말로
+                             """)
+                        .font(.system(size: 20, weight: .black, design: .rounded))
+                        .multilineTextAlignment(.center)
+                    }
                 }
             }.navigationBarTitle("Challenge", displayMode: .inline)
         }
