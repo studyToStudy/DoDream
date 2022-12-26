@@ -15,7 +15,7 @@ struct ListView: View {
         
 
         
-        NavigationView {
+        NavigationStack {
             List {
                 Section(header: Text("DoDream Challenger")) {
                     NavigationLink("두드림") {
