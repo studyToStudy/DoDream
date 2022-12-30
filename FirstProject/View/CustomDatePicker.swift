@@ -10,11 +10,8 @@ import EventKitUI
 
 struct CustomDatePicker: View {
     @Binding var currentDate: Date
-    
     @State var currentMonth: Int = 0
     var eventStore = EKEventStore()
-    
-    
     
     var body: some View {
         
@@ -81,10 +78,6 @@ struct CustomDatePicker: View {
                             currentDate = value.date
                         }
                 }
-            }
-            
-            VStack(spacing: 15) {
-                Text("D-Day to year")
             }
             .padding()
             .padding(.top, 25)
@@ -208,3 +201,8 @@ extension Date {
         }
     }
 }
+
+//class Coordinator: NSObject, UICalendarViewDelegate {
+//    func calendarView(_ calendarView: UICalendarView, decorationFor dateComponents: DateComponents) -> UICalendarView.Decoration? {
+//        
+//    }

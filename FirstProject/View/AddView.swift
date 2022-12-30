@@ -34,7 +34,7 @@ struct AddView: View {
             })
         }
         .padding(14)
-        .navigationTitle("Add Todo🖊️")
+        .navigationTitle("Memo🖊️")
     }
     
     func saveButtonPressed() {

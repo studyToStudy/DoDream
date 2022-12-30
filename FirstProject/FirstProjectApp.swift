@@ -6,10 +6,10 @@
 //
 
 import SwiftUI
+//import EventKit
 
 @main
 struct FirstProjectApp: App {
-    
     @StateObject var listViewModel: ListViewModel = ListViewModel()
     
     var body: some Scene {
