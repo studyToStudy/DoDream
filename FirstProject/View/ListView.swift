@@ -11,49 +11,53 @@ struct ListView: View {
     
     @EnvironmentObject var listViewModel: ListViewModel
     
+    @State var tag: Int? = nil
+    
     var body: some View {
         
-
+//        let menuList = ["프로필 편집"]
         
-        NavigationStack {
+        NavigationView {
             List {
-                Section(header: Text("DoDream Challenger")) {
-                    NavigationLink("두드림") {
-                        Text("자신만의 목표를 이뤄가려는 당신을 위해")
-                            .font(.system(size: 20, weight: .black, design: .rounded))
-                            .multilineTextAlignment(.center)
-                    }
-                    NavigationLink("천리길도 한 걸음 부터"){
-                        Text("""
-                             아무리 크고 많은 것이라도
-                             그 처음은 아주 작은 것에서 부터 시작된다
-                             """)
-                        .font(.system(size: 20, weight: .black, design: .rounded))
-                        .multilineTextAlignment(.center)
-                    }
-                    NavigationLink("쓰러뜨린 도전자들"){
-                        Text("""
-                             많은 문제들을 해결해 온 자
-                             """)
-                        .font(.system(size: 20, weight: .black, design: .rounded))
-                        .multilineTextAlignment(.center)
-                    }
-                    NavigationLink("지쳐가는 이들에게"){
-                        Text("""
-                             삶이 있는 한 희망은 있다 - 키케로
-                             """)
-                        .font(.system(size: 20, weight: .black, design: .rounded))
-                        .multilineTextAlignment(.center)
-                    }
-                    NavigationLink("버티는가 이겨가는가"){
-                        Text("""
-                             오랫동안 꿈을 그리는 사람은 마침내 그 꿈을 닮아 간다, - 앙드레 말로
-                             """)
-                        .font(.system(size: 20, weight: .black, design: .rounded))
-                        .multilineTextAlignment(.center)
+                Section {
+                    NavigationLink() {
+                        Text("프로필화면")
+                    } label: {
+                        HStack{
+                            Image(systemName: "person.circle")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 40, height: 40)
+                                .padding(.all, 10)
+                                .clipShape(Circle())
+                            
+                            VStack(alignment: .leading, spacing: 3) {
+                                Text("이름")
+                                    .font(.system(size: 24))
+                                    .fontWeight(.regular)
+                            }
+                            .padding(.leading, 6)
+                        }
+                        .padding(.vertical, 10)
                     }
                 }
-            }.navigationBarTitle("Challenge", displayMode: .inline)
+                    ZStack {
+                        NavigationLink(destination: ProfilEditView()) {
+                            Text("프로필 편집")
+                        }.buttonStyle(PlainButtonStyle())
+//                        .foregroundColor(.blue)
+//                        .opacity(0)
+                        
+//                    label: {
+//                            Text("프로필 편집")
+//                                .padding(.vertical)
+//                                .frame(maxWidth: .infinity)
+//                        }
+                    }
+//                .resizable()
+                .buttonStyle(PlainButtonStyle())
+                .navigationTitle("내 정보")
+            }
         }
     }
 }

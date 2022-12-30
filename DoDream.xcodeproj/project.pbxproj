@@ -16,6 +16,7 @@
 		DB4541B92946D438004E5DC7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B82946D438004E5DC7 /* Task.swift */; };
 		DB485A202944DC3100C82D5B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A1F2944DC3100C82D5B /* WidgetKit.framework */; };
 		DB485A222944DC3100C82D5B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A212944DC3100C82D5B /* SwiftUI.framework */; };
+		DB638450295E9F4E0036BD68 /* ProfilEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */; };
 		DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */; };
 		DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037C5292F4A84000E2881 /* ContentView.swift */; };
 		DB7037C8292F4A85000E2881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7037C7292F4A85000E2881 /* Assets.xcassets */; };
@@ -68,8 +69,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DB3BE8C6293E1CBC00248E00 /* FirstProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB3BE8C7293E1CBC00248E00 /* FirstProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3BE8C6293E1CBC00248E00 /* DoDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3BE8C7293E1CBC00248E00 /* DoDreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoDreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3BE8CC293E380600248E00 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		DB3BE8CE293E48B200248E00 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		DB3BE8D0293F788700248E00 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 		DB4541C1294EC500004E5DC7 /* DoDreamExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DoDreamExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB485A1F2944DC3100C82D5B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		DB485A212944DC3100C82D5B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilEditView.swift; sourceTree = "<group>"; };
 		DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectApp.swift; sourceTree = "<group>"; };
 		DB7037C5292F4A84000E2881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB7037C7292F4A85000E2881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,7 +93,7 @@
 		DB7037ED29325369000E2881 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		DB7037F12933584E000E2881 /* TabBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBox.swift; sourceTree = "<group>"; };
 		DB8FF32E293A400300518174 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		DB8FF330293BCA8E00518174 /* FirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8FF330293BCA8E00518174 /* DoDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD744642933A666004C9392 /* CalendarHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHomeView.swift; sourceTree = "<group>"; };
 		DBD744662933A6C0004C9392 /* FormattedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,9 +155,9 @@
 				DB7037C2292F4A84000E2881 /* FirstProject */,
 				DB7037D3292F4A85000E2881 /* FirstProjectTests */,
 				DB7037DD292F4A85000E2881 /* FirstProjectUITests */,
-				DB8FF330293BCA8E00518174 /* FirstProject.app */,
-				DB3BE8C6293E1CBC00248E00 /* FirstProjectTests.xctest */,
-				DB3BE8C7293E1CBC00248E00 /* FirstProjectUITests.xctest */,
+				DB8FF330293BCA8E00518174 /* DoDream.app */,
+				DB3BE8C6293E1CBC00248E00 /* DoDreamTests.xctest */,
+				DB3BE8C7293E1CBC00248E00 /* DoDreamUITests.xctest */,
 				DB485A1E2944DC3100C82D5B /* Frameworks */,
 				DB4541C1294EC500004E5DC7 /* DoDreamExtension.appex */,
 			);
@@ -220,6 +222,7 @@
 				DB3BE8CE293E48B200248E00 /* AddView.swift */,
 				DB3BE8CC293E380600248E00 /* ListRowView.swift */,
 				DB8FF32E293A400300518174 /* ListView.swift */,
+				DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */,
 				DBD744642933A666004C9392 /* CalendarHomeView.swift */,
 				DB4541B32945F332004E5DC7 /* CustomDatePicker.swift */,
 			);
@@ -246,9 +249,9 @@
 			productReference = DB4541C1294EC500004E5DC7 /* DoDreamExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		DB7037BF292F4A84000E2881 /* FirstProject */ = {
+		DB7037BF292F4A84000E2881 /* DoDream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB7037E4292F4A85000E2881 /* Build configuration list for PBXNativeTarget "FirstProject" */;
+			buildConfigurationList = DB7037E4292F4A85000E2881 /* Build configuration list for PBXNativeTarget "DoDream" */;
 			buildPhases = (
 				DB7037BC292F4A84000E2881 /* Sources */,
 				DB7037BD292F4A84000E2881 /* Frameworks */,
@@ -260,14 +263,14 @@
 			dependencies = (
 				DB485A312944DC3300C82D5B /* PBXTargetDependency */,
 			);
-			name = FirstProject;
+			name = DoDream;
 			productName = FirstProject;
-			productReference = DB8FF330293BCA8E00518174 /* FirstProject.app */;
+			productReference = DB8FF330293BCA8E00518174 /* DoDream.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DB7037CF292F4A85000E2881 /* FirstProjectTests */ = {
+		DB7037CF292F4A85000E2881 /* DoDreamTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB7037E7292F4A85000E2881 /* Build configuration list for PBXNativeTarget "FirstProjectTests" */;
+			buildConfigurationList = DB7037E7292F4A85000E2881 /* Build configuration list for PBXNativeTarget "DoDreamTests" */;
 			buildPhases = (
 				DB7037CC292F4A85000E2881 /* Sources */,
 				DB7037CD292F4A85000E2881 /* Frameworks */,
@@ -278,14 +281,14 @@
 			dependencies = (
 				DB7037D2292F4A85000E2881 /* PBXTargetDependency */,
 			);
-			name = FirstProjectTests;
+			name = DoDreamTests;
 			productName = FirstProjectTests;
-			productReference = DB3BE8C6293E1CBC00248E00 /* FirstProjectTests.xctest */;
+			productReference = DB3BE8C6293E1CBC00248E00 /* DoDreamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DB7037D9292F4A85000E2881 /* FirstProjectUITests */ = {
+		DB7037D9292F4A85000E2881 /* DoDreamUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB7037EA292F4A85000E2881 /* Build configuration list for PBXNativeTarget "FirstProjectUITests" */;
+			buildConfigurationList = DB7037EA292F4A85000E2881 /* Build configuration list for PBXNativeTarget "DoDreamUITests" */;
 			buildPhases = (
 				DB7037D6292F4A85000E2881 /* Sources */,
 				DB7037D7292F4A85000E2881 /* Frameworks */,
@@ -296,9 +299,9 @@
 			dependencies = (
 				DB7037DC292F4A85000E2881 /* PBXTargetDependency */,
 			);
-			name = FirstProjectUITests;
+			name = DoDreamUITests;
 			productName = FirstProjectUITests;
-			productReference = DB3BE8C7293E1CBC00248E00 /* FirstProjectUITests.xctest */;
+			productReference = DB3BE8C7293E1CBC00248E00 /* DoDreamUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -327,7 +330,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB7037BB292F4A84000E2881 /* Build configuration list for PBXProject "FirstProject" */;
+			buildConfigurationList = DB7037BB292F4A84000E2881 /* Build configuration list for PBXProject "DoDream" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -340,9 +343,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB7037BF292F4A84000E2881 /* FirstProject */,
-				DB7037CF292F4A85000E2881 /* FirstProjectTests */,
-				DB7037D9292F4A85000E2881 /* FirstProjectUITests */,
+				DB7037BF292F4A84000E2881 /* DoDream */,
+				DB7037CF292F4A85000E2881 /* DoDreamTests */,
+				DB7037D9292F4A85000E2881 /* DoDreamUITests */,
 				DB485A1C2944DC3100C82D5B /* DoDreamExtension */,
 			);
 		};
@@ -400,6 +403,7 @@
 				DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */,
 				DB3BE8CD293E380600248E00 /* ListRowView.swift in Sources */,
 				DB8FF32F293A400300518174 /* ListView.swift in Sources */,
+				DB638450295E9F4E0036BD68 /* ProfilEditView.swift in Sources */,
 				DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */,
 				DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */,
 				DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */,
@@ -437,12 +441,12 @@
 		};
 		DB7037D2292F4A85000E2881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DB7037BF292F4A84000E2881 /* FirstProject */;
+			target = DB7037BF292F4A84000E2881 /* DoDream */;
 			targetProxy = DB7037D1292F4A85000E2881 /* PBXContainerItemProxy */;
 		};
 		DB7037DC292F4A85000E2881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DB7037BF292F4A84000E2881 /* FirstProject */;
+			target = DB7037BF292F4A84000E2881 /* DoDream */;
 			targetProxy = DB7037DB292F4A85000E2881 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -627,7 +631,7 @@
 				DEVELOPMENT_TEAM = 477F64NLSP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCalendarsUsageDescription = "DoDream이 사용자의 캘린더 정보를 받아오고자 합니다.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "두드림 연동을 위해 캘린더 접근 권한이 필요합니다. 허용하시겠습니까?";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "개인정보를 보호하기 위해 FaceID를 사용헙니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -639,7 +643,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = whohoo.FirstProject;
+				PRODUCT_BUNDLE_IDENTIFIER = whohoo.DoDream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -660,7 +664,7 @@
 				DEVELOPMENT_TEAM = 477F64NLSP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCalendarsUsageDescription = "DoDream이 사용자의 캘린더 정보를 받아오고자 합니다.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "두드림 연동을 위해 캘린더 접근 권한이 필요합니다. 허용하시겠습니까?";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "개인정보를 보호하기 위해 FaceID를 사용헙니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -672,7 +676,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = whohoo.FirstProject;
+				PRODUCT_BUNDLE_IDENTIFIER = whohoo.DoDream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -695,7 +699,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirstProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoDream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoDream";
 			};
 			name = Debug;
 		};
@@ -714,7 +718,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirstProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoDream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoDream";
 			};
 			name = Release;
 		};
@@ -764,7 +768,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB7037BB292F4A84000E2881 /* Build configuration list for PBXProject "FirstProject" */ = {
+		DB7037BB292F4A84000E2881 /* Build configuration list for PBXProject "DoDream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB7037E2292F4A85000E2881 /* Debug */,
@@ -773,7 +777,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB7037E4292F4A85000E2881 /* Build configuration list for PBXNativeTarget "FirstProject" */ = {
+		DB7037E4292F4A85000E2881 /* Build configuration list for PBXNativeTarget "DoDream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB7037E5292F4A85000E2881 /* Debug */,
@@ -782,7 +786,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB7037E7292F4A85000E2881 /* Build configuration list for PBXNativeTarget "FirstProjectTests" */ = {
+		DB7037E7292F4A85000E2881 /* Build configuration list for PBXNativeTarget "DoDreamTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB7037E8292F4A85000E2881 /* Debug */,
@@ -791,7 +795,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB7037EA292F4A85000E2881 /* Build configuration list for PBXNativeTarget "FirstProjectUITests" */ = {
+		DB7037EA292F4A85000E2881 /* Build configuration list for PBXNativeTarget "DoDreamUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB7037EB292F4A85000E2881 /* Debug */,

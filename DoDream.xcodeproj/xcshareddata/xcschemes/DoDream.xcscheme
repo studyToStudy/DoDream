@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DB7037BF292F4A84000E2881"
-               BuildableName = "FirstProject.app"
-               BlueprintName = "FirstProject"
-               ReferencedContainer = "container:FirstProject.xcodeproj">
+               BuildableName = "DoDream.app"
+               BlueprintName = "DoDream"
+               ReferencedContainer = "container:DoDream.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DB7037CF292F4A85000E2881"
-               BuildableName = "FirstProjectTests.xctest"
-               BlueprintName = "FirstProjectTests"
-               ReferencedContainer = "container:FirstProject.xcodeproj">
+               BuildableName = "DoDreamTests.xctest"
+               BlueprintName = "DoDreamTests"
+               ReferencedContainer = "container:DoDream.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,9 +45,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DB7037D9292F4A85000E2881"
-               BuildableName = "FirstProjectUITests.xctest"
-               BlueprintName = "FirstProjectUITests"
-               ReferencedContainer = "container:FirstProject.xcodeproj">
+               BuildableName = "DoDreamUITests.xctest"
+               BlueprintName = "DoDreamUITests"
+               ReferencedContainer = "container:DoDream.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -67,9 +67,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB7037BF292F4A84000E2881"
-            BuildableName = "FirstProject.app"
-            BlueprintName = "FirstProject"
-            ReferencedContainer = "container:FirstProject.xcodeproj">
+            BuildableName = "DoDream.app"
+            BlueprintName = "DoDream"
+            ReferencedContainer = "container:DoDream.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -84,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB7037BF292F4A84000E2881"
-            BuildableName = "FirstProject.app"
-            BlueprintName = "FirstProject"
-            ReferencedContainer = "container:FirstProject.xcodeproj">
+            BuildableName = "DoDream.app"
+            BlueprintName = "DoDream"
+            ReferencedContainer = "container:DoDream.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
