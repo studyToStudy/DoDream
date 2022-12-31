@@ -17,13 +17,14 @@
 		DB485A202944DC3100C82D5B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A1F2944DC3100C82D5B /* WidgetKit.framework */; };
 		DB485A222944DC3100C82D5B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A212944DC3100C82D5B /* SwiftUI.framework */; };
 		DB638450295E9F4E0036BD68 /* ProfilEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */; };
+		DB687F84295FDEA6000AE74A /* NoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB687F83295FDEA6000AE74A /* NoItemView.swift */; };
 		DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */; };
 		DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037C5292F4A84000E2881 /* ContentView.swift */; };
 		DB7037C8292F4A85000E2881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7037C7292F4A85000E2881 /* Assets.xcassets */; };
 		DB7037CB292F4A85000E2881 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7037CA292F4A85000E2881 /* Preview Assets.xcassets */; };
-		DB7037D5292F4A85000E2881 /* FirstProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037D4292F4A85000E2881 /* FirstProjectTests.swift */; };
-		DB7037DF292F4A85000E2881 /* FirstProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037DE292F4A85000E2881 /* FirstProjectUITests.swift */; };
-		DB7037E1292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037E0292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift */; };
+		DB7037D5292F4A85000E2881 /* DoDreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037D4292F4A85000E2881 /* DoDreamTests.swift */; };
+		DB7037DF292F4A85000E2881 /* DoDreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037DE292F4A85000E2881 /* DoDreamUITests.swift */; };
+		DB7037E1292F4A85000E2881 /* DoDreamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037E0292F4A85000E2881 /* DoDreamUITestsLaunchTests.swift */; };
 		DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037ED29325369000E2881 /* MyProjectCard.swift */; };
 		DB7037F22933584E000E2881 /* TabBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037F12933584E000E2881 /* TabBox.swift */; };
 		DB8FF32F293A400300518174 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8FF32E293A400300518174 /* ListView.swift */; };
@@ -83,13 +84,14 @@
 		DB485A1F2944DC3100C82D5B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		DB485A212944DC3100C82D5B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilEditView.swift; sourceTree = "<group>"; };
+		DB687F83295FDEA6000AE74A /* NoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemView.swift; sourceTree = "<group>"; };
 		DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectApp.swift; sourceTree = "<group>"; };
 		DB7037C5292F4A84000E2881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB7037C7292F4A85000E2881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB7037CA292F4A85000E2881 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DB7037D4292F4A85000E2881 /* FirstProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectTests.swift; sourceTree = "<group>"; };
-		DB7037DE292F4A85000E2881 /* FirstProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectUITests.swift; sourceTree = "<group>"; };
-		DB7037E0292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB7037D4292F4A85000E2881 /* DoDreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoDreamTests.swift; sourceTree = "<group>"; };
+		DB7037DE292F4A85000E2881 /* DoDreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoDreamUITests.swift; sourceTree = "<group>"; };
+		DB7037E0292F4A85000E2881 /* DoDreamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoDreamUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB7037ED29325369000E2881 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		DB7037F12933584E000E2881 /* TabBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBox.swift; sourceTree = "<group>"; };
 		DB8FF32E293A400300518174 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -154,7 +156,7 @@
 			children = (
 				DB7037C2292F4A84000E2881 /* FirstProject */,
 				DB7037D3292F4A85000E2881 /* FirstProjectTests */,
-				DB7037DD292F4A85000E2881 /* FirstProjectUITests */,
+				DB7037DD292F4A85000E2881 /* DoDreamUITests */,
 				DB8FF330293BCA8E00518174 /* DoDream.app */,
 				DB3BE8C6293E1CBC00248E00 /* DoDreamTests.xctest */,
 				DB3BE8C7293E1CBC00248E00 /* DoDreamUITests.xctest */,
@@ -188,18 +190,18 @@
 		DB7037D3292F4A85000E2881 /* FirstProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				DB7037D4292F4A85000E2881 /* FirstProjectTests.swift */,
+				DB7037D4292F4A85000E2881 /* DoDreamTests.swift */,
 			);
 			path = FirstProjectTests;
 			sourceTree = "<group>";
 		};
-		DB7037DD292F4A85000E2881 /* FirstProjectUITests */ = {
+		DB7037DD292F4A85000E2881 /* DoDreamUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DB7037DE292F4A85000E2881 /* FirstProjectUITests.swift */,
-				DB7037E0292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift */,
+				DB7037DE292F4A85000E2881 /* DoDreamUITests.swift */,
+				DB7037E0292F4A85000E2881 /* DoDreamUITestsLaunchTests.swift */,
 			);
-			path = FirstProjectUITests;
+			path = DoDreamUITests;
 			sourceTree = "<group>";
 		};
 		DBD7446829350A9F004C9392 /* Models */ = {
@@ -222,6 +224,7 @@
 				DB3BE8CE293E48B200248E00 /* AddView.swift */,
 				DB3BE8CC293E380600248E00 /* ListRowView.swift */,
 				DB8FF32E293A400300518174 /* ListView.swift */,
+				DB687F83295FDEA6000AE74A /* NoItemView.swift */,
 				DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */,
 				DBD744642933A666004C9392 /* CalendarHomeView.swift */,
 				DB4541B32945F332004E5DC7 /* CustomDatePicker.swift */,
@@ -398,6 +401,7 @@
 			files = (
 				DB3BE8D1293F788700248E00 /* ItemModel.swift in Sources */,
 				DBD744672933A6C0004C9392 /* FormattedDate.swift in Sources */,
+				DB687F84295FDEA6000AE74A /* NoItemView.swift in Sources */,
 				DBD744652933A666004C9392 /* CalendarHomeView.swift in Sources */,
 				DB3BE8CF293E48B200248E00 /* AddView.swift in Sources */,
 				DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */,
@@ -418,7 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB7037D5292F4A85000E2881 /* FirstProjectTests.swift in Sources */,
+				DB7037D5292F4A85000E2881 /* DoDreamTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,8 +430,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB7037DF292F4A85000E2881 /* FirstProjectUITests.swift in Sources */,
-				DB7037E1292F4A85000E2881 /* FirstProjectUITestsLaunchTests.swift in Sources */,
+				DB7037DF292F4A85000E2881 /* DoDreamUITests.swift in Sources */,
+				DB7037E1292F4A85000E2881 /* DoDreamUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

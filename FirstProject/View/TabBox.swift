@@ -21,7 +21,7 @@ struct TabBox: View {
                 Text("Calender")
             }
                 .tag(1)
-            NavigationView(){
+            NavigationStack(){
                 MyProjectCard()
             }
                 .tabItem {

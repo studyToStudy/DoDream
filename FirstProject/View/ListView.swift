@@ -17,7 +17,7 @@ struct ListView: View {
         
 //        let menuList = ["프로필 편집"]
         
-        NavigationView {
+        NavigationStack {
             List {
                 Section {
                     NavigationLink() {

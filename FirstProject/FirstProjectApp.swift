@@ -14,9 +14,10 @@ struct FirstProjectApp: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationView{
+            NavigationStack {
                 ContentView()
             }
+            .navigationViewStyle(StackNavigationViewStyle())
             .environmentObject(listViewModel)
         }
     }
