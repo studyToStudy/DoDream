@@ -20,6 +20,8 @@ struct CustomDatePicker: View {
             let days: [String] =
             ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
             
+//            if days["Sun"]
+            
             HStack(spacing: 20) {
                 
                 VStack(alignment: .leading, spacing: 10) {

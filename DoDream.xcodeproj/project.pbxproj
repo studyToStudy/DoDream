@@ -18,6 +18,7 @@
 		DB485A222944DC3100C82D5B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A212944DC3100C82D5B /* SwiftUI.framework */; };
 		DB638450295E9F4E0036BD68 /* ProfilEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */; };
 		DB687F84295FDEA6000AE74A /* NoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB687F83295FDEA6000AE74A /* NoItemView.swift */; };
+		DB687F9229614463000AE74A /* CalendarHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB687F9129614463000AE74A /* CalendarHomeView.swift */; };
 		DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */; };
 		DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037C5292F4A84000E2881 /* ContentView.swift */; };
 		DB7037C8292F4A85000E2881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7037C7292F4A85000E2881 /* Assets.xcassets */; };
@@ -28,7 +29,6 @@
 		DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037ED29325369000E2881 /* MyProjectCard.swift */; };
 		DB7037F22933584E000E2881 /* TabBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037F12933584E000E2881 /* TabBox.swift */; };
 		DB8FF32F293A400300518174 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8FF32E293A400300518174 /* ListView.swift */; };
-		DBD744652933A666004C9392 /* CalendarHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD744642933A666004C9392 /* CalendarHomeView.swift */; };
 		DBD744672933A6C0004C9392 /* FormattedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD744662933A6C0004C9392 /* FormattedDate.swift */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +86,7 @@
 		DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilEditView.swift; sourceTree = "<group>"; };
 		DB687F83295FDEA6000AE74A /* NoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemView.swift; sourceTree = "<group>"; };
 		DB687F8529608318000AE74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = DoDream/Info.plist; sourceTree = "<group>"; };
+		DB687F9129614463000AE74A /* CalendarHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHomeView.swift; sourceTree = "<group>"; };
 		DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectApp.swift; sourceTree = "<group>"; };
 		DB7037C5292F4A84000E2881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB7037C7292F4A85000E2881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,7 +98,6 @@
 		DB7037F12933584E000E2881 /* TabBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBox.swift; sourceTree = "<group>"; };
 		DB8FF32E293A400300518174 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		DB8FF330293BCA8E00518174 /* DoDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBD744642933A666004C9392 /* CalendarHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHomeView.swift; sourceTree = "<group>"; };
 		DBD744662933A6C0004C9392 /* FormattedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -228,8 +228,8 @@
 				DB8FF32E293A400300518174 /* ListView.swift */,
 				DB687F83295FDEA6000AE74A /* NoItemView.swift */,
 				DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */,
-				DBD744642933A666004C9392 /* CalendarHomeView.swift */,
 				DB4541B32945F332004E5DC7 /* CustomDatePicker.swift */,
+				DB687F9129614463000AE74A /* CalendarHomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -404,7 +404,6 @@
 				DB3BE8D1293F788700248E00 /* ItemModel.swift in Sources */,
 				DBD744672933A6C0004C9392 /* FormattedDate.swift in Sources */,
 				DB687F84295FDEA6000AE74A /* NoItemView.swift in Sources */,
-				DBD744652933A666004C9392 /* CalendarHomeView.swift in Sources */,
 				DB3BE8CF293E48B200248E00 /* AddView.swift in Sources */,
 				DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */,
 				DB3BE8CD293E380600248E00 /* ListRowView.swift in Sources */,
@@ -417,6 +416,7 @@
 				DB4541B42945F332004E5DC7 /* CustomDatePicker.swift in Sources */,
 				DB4541B92946D438004E5DC7 /* Task.swift in Sources */,
 				DB3BE8D52940DE4F00248E00 /* ListViewModel.swift in Sources */,
+				DB687F9229614463000AE74A /* CalendarHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

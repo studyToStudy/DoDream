@@ -36,7 +36,7 @@ struct TabBox: View {
                     Text("Challenge")
                 }
                 .tag(3)
-                .badge(5)
+//                .badge(5)
         }
     }
 }

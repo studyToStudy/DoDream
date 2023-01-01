@@ -14,15 +14,14 @@ struct NoItemView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Text("There are no items!")
+                Text("항목이 없습니다😢")
                     .font(.title)
                     .fontWeight(.semibold)
-                Text("Are you..")
                     .padding(.bottom)
                 NavigationLink(
                     destination: AddView(),
                     label: {
-                        Text("DoDream 추가🙂")
+                        Text("DoDream 추가하기!")
                             .foregroundColor(.white)
                             .font(.headline)
                             .frame(height: 55)

@@ -15,22 +15,22 @@ struct AddView: View {
     
     var body: some View {
         ScrollView {
-            TextField("텍스트를 입력하세요.", text: $textFiledText)
+             TextField("Write your Dream", text: $textFiledText)
                 .padding(.horizontal)
                 .frame(height: 55)
                 .background(Color(hue: 1.0, saturation: 0.0, brightness: 0.908))
                 .cornerRadius(10)
                 .foregroundColor(.black)
 
-            
             Button(action: saveButtonPressed, label: {
-                Text("Save".uppercased())
+                Text("저장".uppercased())
                     .foregroundColor(.white)
                     .font(.headline)
                     .frame(height: 55)
                     .frame(maxWidth: .infinity)
                     .background(Color.accentColor)
                     .cornerRadius(10)
+                    .disabled(self.textFiledText.isEmpty)
             })
         }
         .padding(14)
