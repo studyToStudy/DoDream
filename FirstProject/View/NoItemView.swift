@@ -14,7 +14,7 @@ struct NoItemView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Text("두드림 사용법😄")
+                Text("Do Dream😄")
                     .font(.custom("THEGaeideuk", size: 40))
                     .font(.title)
                     .fontWeight(.semibold)
@@ -24,11 +24,11 @@ struct NoItemView: View {
                     label: {
                         Text("DoDream 추가하기!")
                             .font(.custom("THEGaeideuk", size: 20))
-                            .foregroundColor(.white)
+                            .foregroundColor(.blue)
                             .font(.headline)
                             .frame(height: 55)
                             .frame(maxWidth: .infinity)
-                            .background(Color.accentColor)
+                            .background(Color.white)
                             .cornerRadius(10)
                     })
                 .padding(.horizontal)

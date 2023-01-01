@@ -29,11 +29,11 @@ struct AddView: View {
             Button(action: saveButtonPressed, label: {
                 Text("저장".uppercased())
                     .font(.custom("THEGaeideuk", size: 25))
-                    .foregroundColor(.white)
+                    .foregroundColor(.blue)
                     .font(.headline)
                     .frame(height: 55)
                     .frame(maxWidth: .infinity)
-                    .background(Color.accentColor)
+                    .background(Color.white)
                     .cornerRadius(10)
                     .disabled(self.textFiledText.isEmpty)
             })
