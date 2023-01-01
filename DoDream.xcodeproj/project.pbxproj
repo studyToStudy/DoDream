@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB08B6042961B1C900520BE5 /* THE개이득.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB08B6032961B1C800520BE5 /* THE개이득.ttf */; };
+		DB08B6052961B1C900520BE5 /* THE개이득.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB08B6032961B1C800520BE5 /* THE개이득.ttf */; };
+		DB08B6062961B1C900520BE5 /* THE개이득.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB08B6032961B1C800520BE5 /* THE개이득.ttf */; };
+		DB08B6072961B1C900520BE5 /* THE개이득.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB08B6032961B1C800520BE5 /* THE개이득.ttf */; };
 		DB3BE8CD293E380600248E00 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8CC293E380600248E00 /* ListRowView.swift */; };
 		DB3BE8CF293E48B200248E00 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8CE293E48B200248E00 /* AddView.swift */; };
 		DB3BE8D1293F788700248E00 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8D0293F788700248E00 /* ItemModel.swift */; };
 		DB3BE8D52940DE4F00248E00 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8D42940DE4F00248E00 /* ListViewModel.swift */; };
-		DB4541B42945F332004E5DC7 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B32945F332004E5DC7 /* CustomDatePicker.swift */; };
 		DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B629461E5D004E5DC7 /* DateValue.swift */; };
 		DB4541B92946D438004E5DC7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B82946D438004E5DC7 /* Task.swift */; };
 		DB485A202944DC3100C82D5B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A1F2944DC3100C82D5B /* WidgetKit.framework */; };
 		DB485A222944DC3100C82D5B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A212944DC3100C82D5B /* SwiftUI.framework */; };
 		DB638450295E9F4E0036BD68 /* ProfilEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */; };
 		DB687F84295FDEA6000AE74A /* NoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB687F83295FDEA6000AE74A /* NoItemView.swift */; };
-		DB687F9229614463000AE74A /* CalendarHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB687F9129614463000AE74A /* CalendarHomeView.swift */; };
 		DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */; };
 		DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037C5292F4A84000E2881 /* ContentView.swift */; };
 		DB7037C8292F4A85000E2881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7037C7292F4A85000E2881 /* Assets.xcassets */; };
@@ -70,6 +72,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB08B6032961B1C800520BE5 /* THE개이득.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "THE개이득.ttf"; sourceTree = "<group>"; };
 		DB3BE8C6293E1CBC00248E00 /* DoDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3BE8C7293E1CBC00248E00 /* DoDreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoDreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3BE8CC293E380600248E00 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
@@ -77,7 +80,6 @@
 		DB3BE8D0293F788700248E00 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		DB3BE8D42940DE4F00248E00 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		DB4541A42944FA6E004E5DC7 /* FirstProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirstProject.entitlements; sourceTree = "<group>"; };
-		DB4541B32945F332004E5DC7 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
 		DB4541B629461E5D004E5DC7 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
 		DB4541B82946D438004E5DC7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		DB4541C1294EC500004E5DC7 /* DoDreamExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DoDreamExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +88,6 @@
 		DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilEditView.swift; sourceTree = "<group>"; };
 		DB687F83295FDEA6000AE74A /* NoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemView.swift; sourceTree = "<group>"; };
 		DB687F8529608318000AE74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = DoDream/Info.plist; sourceTree = "<group>"; };
-		DB687F9129614463000AE74A /* CalendarHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHomeView.swift; sourceTree = "<group>"; };
 		DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectApp.swift; sourceTree = "<group>"; };
 		DB7037C5292F4A84000E2881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB7037C7292F4A85000E2881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -135,6 +136,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB08B6022961B1A300520BE5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB08B6032961B1C800520BE5 /* THE개이득.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		DB3BE8D32940DE1700248E00 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				DB4541A42944FA6E004E5DC7 /* FirstProject.entitlements */,
+				DB08B6022961B1A300520BE5 /* Fonts */,
 				DBD7446A29350AB2004C9392 /* View */,
 				DB3BE8D32940DE1700248E00 /* ViewModels */,
 				DBD7446829350A9F004C9392 /* Models */,
@@ -228,8 +238,6 @@
 				DB8FF32E293A400300518174 /* ListView.swift */,
 				DB687F83295FDEA6000AE74A /* NoItemView.swift */,
 				DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */,
-				DB4541B32945F332004E5DC7 /* CustomDatePicker.swift */,
-				DB687F9129614463000AE74A /* CalendarHomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -361,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB08B6072961B1C900520BE5 /* THE개이득.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB7037CB292F4A85000E2881 /* Preview Assets.xcassets in Resources */,
+				DB08B6042961B1C900520BE5 /* THE개이득.ttf in Resources */,
 				DB7037C8292F4A85000E2881 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +387,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB08B6052961B1C900520BE5 /* THE개이득.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +395,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB08B6062961B1C900520BE5 /* THE개이득.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +425,8 @@
 				DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */,
 				DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */,
 				DB7037F22933584E000E2881 /* TabBox.swift in Sources */,
-				DB4541B42945F332004E5DC7 /* CustomDatePicker.swift in Sources */,
 				DB4541B92946D438004E5DC7 /* Task.swift in Sources */,
 				DB3BE8D52940DE4F00248E00 /* ListViewModel.swift in Sources */,
-				DB687F9229614463000AE74A /* CalendarHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

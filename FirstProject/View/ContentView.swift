@@ -13,9 +13,10 @@ struct ContentView: View {
 //    @State private var isUnlocked = false
     var body: some View {
         VStack{
-//            NavigationView {
+            NavigationView {
                 TabBox()
-//            }
+            }
+            .navigationTitle("Todo List⏰")
         }
     }
 }

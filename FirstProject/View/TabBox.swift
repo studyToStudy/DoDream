@@ -14,29 +14,18 @@ struct TabBox: View {
     
     var body: some View {
         TabView(selection: $selection) {
-            ScrollView{
-                CalendarHomeView()
-            }.tabItem {
-                Image(systemName: "calendar")
-                Text("Calender")
-            }
-                .tag(1)
             NavigationStack(){
                 MyProjectCard()
             }
                 .tabItem {
 //                    MyProjectCard()
                     Image(systemName: "pencil.line")
-                    Text("Write")
                 }
                 .tag(2)
             ListView()
                 .tabItem {
-                    Image(systemName: "flame")
-                    Text("Challenge")
+                    Image(systemName: "gear")
                 }
-                .tag(3)
-//                .badge(5)
         }
     }
 }
