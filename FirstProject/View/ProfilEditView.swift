@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import MessageUI
 
 struct ProfilEditView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+//        let constants = Constants.shared
+        var body: some View {
+            Text("Hello")
     }
 }
 

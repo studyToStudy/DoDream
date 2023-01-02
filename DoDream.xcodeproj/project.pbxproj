@@ -19,6 +19,8 @@
 		DB4541B92946D438004E5DC7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B82946D438004E5DC7 /* Task.swift */; };
 		DB485A202944DC3100C82D5B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A1F2944DC3100C82D5B /* WidgetKit.framework */; };
 		DB485A222944DC3100C82D5B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A212944DC3100C82D5B /* SwiftUI.framework */; };
+		DB5101E329631C01000A8BBB /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5101E229631C01000A8BBB /* UIDevice.swift */; };
+		DB5101E529631E0B000A8BBB /* SupportEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5101E429631E0B000A8BBB /* SupportEmail.swift */; };
 		DB638450295E9F4E0036BD68 /* ProfilEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */; };
 		DB687F84295FDEA6000AE74A /* NoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB687F83295FDEA6000AE74A /* NoItemView.swift */; };
 		DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */; };
@@ -85,6 +87,8 @@
 		DB4541C1294EC500004E5DC7 /* DoDreamExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DoDreamExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB485A1F2944DC3100C82D5B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		DB485A212944DC3100C82D5B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DB5101E229631C01000A8BBB /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		DB5101E429631E0B000A8BBB /* SupportEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportEmail.swift; sourceTree = "<group>"; };
 		DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilEditView.swift; sourceTree = "<group>"; };
 		DB687F83295FDEA6000AE74A /* NoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemView.swift; sourceTree = "<group>"; };
 		DB687F8529608318000AE74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = DoDream/Info.plist; sourceTree = "<group>"; };
@@ -161,6 +165,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DB5101E129631BDD000A8BBB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DB5101E229631C01000A8BBB /* UIDevice.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		DB7037B7292F4A84000E2881 = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +195,7 @@
 				DB08B6022961B1A300520BE5 /* Fonts */,
 				DBD7446A29350AB2004C9392 /* View */,
 				DB3BE8D32940DE1700248E00 /* ViewModels */,
+				DB5101E129631BDD000A8BBB /* Extension */,
 				DBD7446829350A9F004C9392 /* Models */,
 				DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */,
 				DB7037C7292F4A85000E2881 /* Assets.xcassets */,
@@ -220,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				DBD744662933A6C0004C9392 /* FormattedDate.swift */,
+				DB5101E429631E0B000A8BBB /* SupportEmail.swift */,
 				DB3BE8D0293F788700248E00 /* ItemModel.swift */,
 				DB4541B629461E5D004E5DC7 /* DateValue.swift */,
 				DB4541B82946D438004E5DC7 /* Task.swift */,
@@ -415,6 +429,7 @@
 			files = (
 				DB3BE8D1293F788700248E00 /* ItemModel.swift in Sources */,
 				DBD744672933A6C0004C9392 /* FormattedDate.swift in Sources */,
+				DB5101E529631E0B000A8BBB /* SupportEmail.swift in Sources */,
 				DB687F84295FDEA6000AE74A /* NoItemView.swift in Sources */,
 				DB3BE8CF293E48B200248E00 /* AddView.swift in Sources */,
 				DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */,
@@ -423,6 +438,7 @@
 				DB638450295E9F4E0036BD68 /* ProfilEditView.swift in Sources */,
 				DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */,
 				DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */,
+				DB5101E329631C01000A8BBB /* UIDevice.swift in Sources */,
 				DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */,
 				DB7037F22933584E000E2881 /* TabBox.swift in Sources */,
 				DB4541B92946D438004E5DC7 /* Task.swift in Sources */,
@@ -654,6 +670,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -687,6 +704,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

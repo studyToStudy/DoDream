@@ -19,6 +19,10 @@ struct FirstProjectApp: App {
 //            }
             .navigationViewStyle(StackNavigationViewStyle())
             .environmentObject(listViewModel)
+            .onAppear {
+                print(UIDevice.current.systemVersion)
+                print(UIDevice.current.modelName)
+            }
         }
     }
 }
