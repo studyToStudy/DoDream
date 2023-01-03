@@ -13,6 +13,7 @@ struct SupportEmail {
     let toAddress: String
     let subject: String
     let messageHeader: String
+    var data: Data?
     var body: String {
         """
         -------------------

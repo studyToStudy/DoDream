@@ -18,10 +18,13 @@ struct TabBox: View {
                 MyProjectCard()
             }
                 .tabItem {
-//                    MyProjectCard()
                     Image(systemName: "pencil.line")
                 }
                 .tag(2)
+            HomeView()
+                .tabItem {
+                    Image(systemName: "house")
+                }
             ListView()
                 .tabItem {
                     Image(systemName: "gear")

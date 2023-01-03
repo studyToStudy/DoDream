@@ -15,6 +15,9 @@
 		DB3BE8CF293E48B200248E00 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8CE293E48B200248E00 /* AddView.swift */; };
 		DB3BE8D1293F788700248E00 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8D0293F788700248E00 /* ItemModel.swift */; };
 		DB3BE8D52940DE4F00248E00 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8D42940DE4F00248E00 /* ListViewModel.swift */; };
+		DB3CEB072963EE2E00114A03 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEB062963EE2E00114A03 /* HomeView.swift */; };
+		DB3CEB092963EF1F00114A03 /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEB082963EF1E00114A03 /* HomeCardView.swift */; };
+		DB3CEB0B2963F85300114A03 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEB0A2963F85300114A03 /* PopUpView.swift */; };
 		DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B629461E5D004E5DC7 /* DateValue.swift */; };
 		DB4541B92946D438004E5DC7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B82946D438004E5DC7 /* Task.swift */; };
 		DB485A202944DC3100C82D5B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A1F2944DC3100C82D5B /* WidgetKit.framework */; };
@@ -32,6 +35,10 @@
 		DB7037E1292F4A85000E2881 /* DoDreamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037E0292F4A85000E2881 /* DoDreamUITestsLaunchTests.swift */; };
 		DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037ED29325369000E2881 /* MyProjectCard.swift */; };
 		DB7037F22933584E000E2881 /* TabBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037F12933584E000E2881 /* TabBox.swift */; };
+		DB77B7D82963BF98006B3505 /* SwiftUIMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB77B7D72963BF98006B3505 /* SwiftUIMailView.swift */; };
+		DB77B7D92963BF98006B3505 /* SwiftUIMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB77B7D72963BF98006B3505 /* SwiftUIMailView.swift */; };
+		DB77B7DA2963BF98006B3505 /* SwiftUIMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB77B7D72963BF98006B3505 /* SwiftUIMailView.swift */; };
+		DB77B7DB2963BF98006B3505 /* SwiftUIMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB77B7D72963BF98006B3505 /* SwiftUIMailView.swift */; };
 		DB8FF32F293A400300518174 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8FF32E293A400300518174 /* ListView.swift */; };
 		DBD744672933A6C0004C9392 /* FormattedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD744662933A6C0004C9392 /* FormattedDate.swift */; };
 /* End PBXBuildFile section */
@@ -81,6 +88,9 @@
 		DB3BE8CE293E48B200248E00 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		DB3BE8D0293F788700248E00 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		DB3BE8D42940DE4F00248E00 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		DB3CEB062963EE2E00114A03 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DB3CEB082963EF1E00114A03 /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
+		DB3CEB0A2963F85300114A03 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		DB4541A42944FA6E004E5DC7 /* FirstProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirstProject.entitlements; sourceTree = "<group>"; };
 		DB4541B629461E5D004E5DC7 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
 		DB4541B82946D438004E5DC7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
@@ -101,6 +111,8 @@
 		DB7037E0292F4A85000E2881 /* DoDreamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoDreamUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB7037ED29325369000E2881 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		DB7037F12933584E000E2881 /* TabBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBox.swift; sourceTree = "<group>"; };
+		DB77B7D62963BF97006B3505 /* DoDreamExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoDreamExtension-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB77B7D72963BF98006B3505 /* SwiftUIMailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIMailView.swift; sourceTree = "<group>"; };
 		DB8FF32E293A400300518174 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		DB8FF330293BCA8E00518174 /* DoDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD744662933A6C0004C9392 /* FormattedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedDate.swift; sourceTree = "<group>"; };
@@ -193,6 +205,7 @@
 			children = (
 				DB4541A42944FA6E004E5DC7 /* FirstProject.entitlements */,
 				DB08B6022961B1A300520BE5 /* Fonts */,
+				DB77B7D52963BECB006B3505 /* UIViewController */,
 				DBD7446A29350AB2004C9392 /* View */,
 				DB3BE8D32940DE1700248E00 /* ViewModels */,
 				DB5101E129631BDD000A8BBB /* Extension */,
@@ -229,6 +242,16 @@
 			path = DoDreamUITests;
 			sourceTree = "<group>";
 		};
+		DB77B7D52963BECB006B3505 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB77B7D72963BF98006B3505 /* SwiftUIMailView.swift */,
+				DB77B7D62963BF97006B3505 /* DoDreamExtension-Bridging-Header.h */,
+			);
+			name = UIViewController;
+			path = ../UIViewController;
+			sourceTree = "<group>";
+		};
 		DBD7446829350A9F004C9392 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +275,9 @@
 				DB8FF32E293A400300518174 /* ListView.swift */,
 				DB687F83295FDEA6000AE74A /* NoItemView.swift */,
 				DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */,
+				DB3CEB062963EE2E00114A03 /* HomeView.swift */,
+				DB3CEB082963EF1E00114A03 /* HomeCardView.swift */,
+				DB3CEB0A2963F85300114A03 /* PopUpView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -343,6 +369,7 @@
 				TargetAttributes = {
 					DB485A1C2944DC3100C82D5B = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 					DB7037BF292F4A84000E2881 = {
 						CreatedOnToolsVersion = 14.1;
@@ -420,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB77B7DB2963BF98006B3505 /* SwiftUIMailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,14 +457,18 @@
 			files = (
 				DB3BE8D1293F788700248E00 /* ItemModel.swift in Sources */,
 				DBD744672933A6C0004C9392 /* FormattedDate.swift in Sources */,
+				DB77B7D82963BF98006B3505 /* SwiftUIMailView.swift in Sources */,
 				DB5101E529631E0B000A8BBB /* SupportEmail.swift in Sources */,
 				DB687F84295FDEA6000AE74A /* NoItemView.swift in Sources */,
+				DB3CEB0B2963F85300114A03 /* PopUpView.swift in Sources */,
 				DB3BE8CF293E48B200248E00 /* AddView.swift in Sources */,
 				DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */,
 				DB3BE8CD293E380600248E00 /* ListRowView.swift in Sources */,
 				DB8FF32F293A400300518174 /* ListView.swift in Sources */,
+				DB3CEB072963EE2E00114A03 /* HomeView.swift in Sources */,
 				DB638450295E9F4E0036BD68 /* ProfilEditView.swift in Sources */,
 				DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */,
+				DB3CEB092963EF1F00114A03 /* HomeCardView.swift in Sources */,
 				DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */,
 				DB5101E329631C01000A8BBB /* UIDevice.swift in Sources */,
 				DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */,
@@ -451,6 +483,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB7037D5292F4A85000E2881 /* DoDreamTests.swift in Sources */,
+				DB77B7D92963BF98006B3505 /* SwiftUIMailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +491,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB77B7DA2963BF98006B3505 /* SwiftUIMailView.swift in Sources */,
 				DB7037DF292F4A85000E2881 /* DoDreamUITests.swift in Sources */,
 				DB7037E1292F4A85000E2881 /* DoDreamUITestsLaunchTests.swift in Sources */,
 			);
@@ -489,8 +523,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 477F64NLSP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DoDream/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = DoDream;
@@ -505,6 +541,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UIViewController/DoDreamExtension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -515,8 +553,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 477F64NLSP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DoDream/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = DoDream;
@@ -531,6 +571,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UIViewController/DoDreamExtension-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

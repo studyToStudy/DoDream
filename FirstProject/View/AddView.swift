@@ -12,12 +12,13 @@ struct AddView: View {
     @Environment(\.presentationMode) var presentationMode
     @EnvironmentObject var listViewModel: ListViewModel
     @State var textFiledText: String = ""
+    @State private var searchText = ""
     @FocusState private var isFocused: Bool
     
     var body: some View {
         ScrollView {
              TextField("Write your Dream", text: $textFiledText)
-                .keyboardType(.emailAddress)
+                .keyboardType(.default)
                 .padding(.horizontal)
                 .frame(height: 55)
                 .background(Color(hue: 1.0, saturation: 0.0, brightness: 0.908))

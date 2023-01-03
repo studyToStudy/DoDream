@@ -11,6 +11,8 @@ struct ListView: View {
     
     @EnvironmentObject var listViewModel: ListViewModel
     @Environment(\.openURL) var openURL
+    @State private var askForAttachment = false
+    @State private var showEmail = false
     private var email = SupportEmail(toAddress: "jenghoo515@gmail.com", subject: "Support Email", messageHeader: "에러 및 건의 사항을 전달 해주세요")
     
     @State var tag: Int? = nil
@@ -18,7 +20,7 @@ struct ListView: View {
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink(destination: ProfilEditView()) {
+                NavigationLink(destination: HomeCardView()) {
                             Text("프로필 편집")
                         .font(.custom("THEGaeideuk", size: 20))
                         }.buttonStyle(PlainButtonStyle())
@@ -26,15 +28,15 @@ struct ListView: View {
                             Text("앱 버전")
                         .font(.custom("THEGaeideuk", size: 20))
 //                        }
-                NavigationLink(destination: ProfilEditView()) {
+                NavigationLink(destination: HomeCardView()) {
                             Text("문의")
                         .font(.custom("THEGaeideuk", size: 20))
                         }
-                NavigationLink(destination: ProfilEditView()) {
+                NavigationLink(destination: HomeCardView()) {
                             Text("문의")
                         .font(.custom("THEGaeideuk", size: 20))
                         }
-                NavigationLink(destination: ProfilEditView()) {
+                NavigationLink(destination: HomeCardView()) {
                             Text("문의")
                         .font(.custom("THEGaeideuk", size: 20))
                         }

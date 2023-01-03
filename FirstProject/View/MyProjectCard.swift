@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct MyProjectCard: View {
-    @State private var searchFor: String = ""
     @EnvironmentObject var listViewModel: ListViewModel
-    @State private var searchQuery: String = ""
     @State private var saveText: String = ""
     @State private var isCompleted = false
     
@@ -40,14 +38,6 @@ struct MyProjectCard: View {
         }
         .navigationTitle("Todo List⏰")
         .font(.custom("THEGaeideuk", size: 40))
-//        .onAppear {
-//            for familiy: String in UIFont.familyNames {
-//                print(familiy)
-//                for names: String in UIFont.fontNames(forFamilyName: familiy) {
-//                    print("=== \(names)")
-//                }
-//            }
-//        }
         .navigationBarItems(
             leading: EditButton(),
             trailing:
