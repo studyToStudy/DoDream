@@ -26,6 +26,7 @@ struct MyProjectCard: View {
                             .onTapGesture {
                                 withAnimation(.linear) {
                                     listViewModel.updateItem(item: item)
+                                    print($listViewModel.items.count)
                                 }
                             }
                     }

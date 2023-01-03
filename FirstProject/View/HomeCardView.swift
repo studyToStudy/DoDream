@@ -50,6 +50,12 @@ struct HomeCardView: View {
                 .frame(width: 150)
   
           Spacer()
+            NavigationLink(destination: CustomAlertView(show: $customAlert)) {
+                Text("읽어보기")
+            }
+            .font(Font.system(size: 15, design: .default))
+            .foregroundColor(Color.white)
+            .underline()
         }
         .padding(20)
       }

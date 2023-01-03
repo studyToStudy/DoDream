@@ -36,11 +36,6 @@ struct PopUpView: View {
         
         let alert = UIAlertController(title: "Description", message: "두드림 설명", preferredStyle: .alert)
         
-        alert.addTextField { (pass) in
-            pass.isSecureTextEntry = true
-            pass.placeholder = "password"
-        }
-        
         let cancel = UIAlertAction(title: "Cancel", style: .destructive) {(_) in
             
         }
@@ -77,10 +72,11 @@ struct CustomAlertView : View {
                 Image(systemName: "figure.run.square.stack.fill")
                 
                 Text("두드림 사용법")
-                    .font(.title)
+                    .font(.custom("THEGaeideuk", size: 30))
                     .foregroundColor(.primary)
                 
                 Text("하루에 하나씩, 작은 목표들을 이뤄가며 성취감을 얻어 가는 건 어떨까요?")
+                    .font(.custom("THEGaeideuk", size: 20))
             }
             .padding(.vertical, 25)
             .padding(.horizontal, 30)
@@ -94,7 +90,7 @@ struct CustomAlertView : View {
                 }
             }) {
                 Image(systemName: "xmark.circle")
-                    .font(.system(size: 28, weight: .bold))
+                    .font(.system(size: 30, weight: .bold))
                     .foregroundColor(.purple)
             }
             .padding()

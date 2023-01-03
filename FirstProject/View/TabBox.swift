@@ -20,8 +20,8 @@ struct TabBox: View {
                 .tabItem {
                     Image(systemName: "pencil.line")
                 }
-                .tag(2)
-            HomeView()
+//                .tag(2)
+            MainView()
                 .tabItem {
                     Image(systemName: "house")
                 }
