@@ -15,6 +15,7 @@ struct MyProjectCard: View {
     var body: some View {
         NavigationStack {
             ZStack {
+                Text("\($listViewModel.items.count)")
                 if listViewModel.items.isEmpty {
                     NoItemView()
                         .transition(AnyTransition.opacity.animation(.easeIn))
@@ -26,7 +27,7 @@ struct MyProjectCard: View {
                             .onTapGesture {
                                 withAnimation(.linear) {
                                     listViewModel.updateItem(item: item)
-                                    print($listViewModel.items.count)
+//                                    print($listViewModel.items.count)
                                 }
                             }
                     }

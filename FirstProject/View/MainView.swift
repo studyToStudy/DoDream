@@ -8,34 +8,28 @@
 import SwiftUI
 
 struct MainView: View {
+    @EnvironmentObject var listViewModel: ListViewModel
     
     var body: some View {
-        
         ZStack {
             VStack {
                 
                 Text("DoDream")
-//                    .font(.system(.title, design: .rounded))
+                    .font(.system(.title, design: .rounded))
                     .font(.custom("THEGaeideuk", size: 30))
 //                    .foregroundColor(.white)
                     .fontWeight(.bold)
                 
                 HStack {
-                    
-                    SubscriptionView(title: "Todo", subTitle: "9", fontColor: .black, bgColor: .green)
-                    SubscriptionView(title: "Gold", subTitle: "49", fontColor: .black, bgColor: .yellow)
+                    SubscriptionView(title: "Todo", subTitle: "\($listViewModel.items.count)", fontColor: .black, bgColor: .blue)
+                    SubscriptionView(title: "Task", subTitle: "49", fontColor: .black, bgColor: .yellow)
                     
                 } //HStack
                 
-                SubscriptionView(title: "Titanium", subTitle: "99", fontColor: .white, bgColor: .gray)
-                
-                SubscriptionButton(text: "Subscribe", color: .blue, topPadding: 40, action: {
-                    //Execute subscribe code
-                })
-                
-                SubscriptionButton(text: "Maybe next time", color: .red, topPadding: 10, action: {
-                    //Execute exit code
-                })
+                SubscriptionView(title: "DoDream", subTitle: "99", fontColor: .white, bgColor: .gray)
+//                SubscriptionButton(text: "", color: .red, topPadding: 10, action: {
+//                    //Execute exit code
+//                })
                 
             } //VStack
             
@@ -46,7 +40,7 @@ struct MainView: View {
 } //ContentView
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        MainView().environmentObject(ListViewModel())
     }
 }
 
@@ -57,6 +51,7 @@ struct SubscriptionView: View {
     var subTitle: String
     var fontColor: Color
     var bgColor: Color
+//    var todoCount : Int
     
     var body: some View {
         VStack {
@@ -70,7 +65,7 @@ struct SubscriptionView: View {
                 .font(.system(.title, design: .rounded))
                 .foregroundColor(fontColor)
             
-            Text("per month")
+            Text("남은 ToDo")
                 .font(.headline)
                 .foregroundColor(fontColor)
             

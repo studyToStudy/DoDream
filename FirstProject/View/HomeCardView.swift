@@ -9,9 +9,7 @@ import SwiftUI
 
 struct HomeCardView: View {
 
-//    let text: String = "The future of healthy lifestyle."
-    @State var customAlert = false
-//    @Published var customAlertView = CustomAlertView(show: $customAlert)
+    @EnvironmentObject var listViewModel: ListViewModel
     var card: [String] = []
 
   var body: some View {
@@ -20,6 +18,7 @@ struct HomeCardView: View {
       .foregroundColor(Color.blue)
         VStack(alignment: .leading) {
             Text("DoDream 꿈을 기록하세요")
+            Text("\($listViewModel.items.count)")
                 .foregroundColor(Color.white)
                 .font(Font.system(size: 30, design: .default))
                 .bold()
@@ -27,9 +26,6 @@ struct HomeCardView: View {
                 .frame(width: 150)
             Spacer()
             
-            NavigationLink(destination: CustomAlertView(show: $customAlert)) {
-                Text("읽어보기")
-            }
                     .font(Font.system(size: 15, design: .default))
                     .foregroundColor(Color.white)
                     .underline()
@@ -50,9 +46,7 @@ struct HomeCardView: View {
                 .frame(width: 150)
   
           Spacer()
-            NavigationLink(destination: CustomAlertView(show: $customAlert)) {
-                Text("읽어보기")
-            }
+            
             .font(Font.system(size: 15, design: .default))
             .foregroundColor(Color.white)
             .underline()
@@ -85,5 +79,6 @@ struct HomeCardView: View {
 struct HomeCardView_Previews: PreviewProvider {
     static var previews: some View {
         HomeCardView()
+            .environmentObject(ListViewModel())
     }
 }

@@ -10,10 +10,7 @@ import SwiftUI
 struct ListView: View {
     
     @EnvironmentObject var listViewModel: ListViewModel
-    @Environment(\.openURL) var openURL
     @State private var askForAttachment = false
-    @State private var showEmail = false
-    private var email = SupportEmail(toAddress: "jenghoo515@gmail.com", subject: "Support Email", messageHeader: "에러 및 건의 사항을 전달 해주세요")
     
     @State var tag: Int? = nil
     
@@ -42,18 +39,6 @@ struct ListView: View {
                         }
                     .buttonStyle(PlainButtonStyle())
                     .navigationTitle("설정")
-                    .toolbar {
-                        ToolbarItem(placement: .navigationBarTrailing) {
-                            Button {
-                                email.send(openURL: openURL)
-                            } label: {
-                                HStack {
-                                    Text("문의하기")
-                                    Image(systemName: "envelope.circle.fill")
-                                }
-                            }
-                        }
-                    }
             }
         }
     }

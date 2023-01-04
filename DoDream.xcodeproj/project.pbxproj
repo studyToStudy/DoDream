@@ -17,7 +17,6 @@
 		DB3BE8D52940DE4F00248E00 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8D42940DE4F00248E00 /* ListViewModel.swift */; };
 		DB3CEB072963EE2E00114A03 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEB062963EE2E00114A03 /* HomeView.swift */; };
 		DB3CEB092963EF1F00114A03 /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEB082963EF1E00114A03 /* HomeCardView.swift */; };
-		DB3CEB0B2963F85300114A03 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEB0A2963F85300114A03 /* PopUpView.swift */; };
 		DB3CEB0D2964162E00114A03 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEB0C2964162E00114A03 /* MainView.swift */; };
 		DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B629461E5D004E5DC7 /* DateValue.swift */; };
 		DB4541B92946D438004E5DC7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B82946D438004E5DC7 /* Task.swift */; };
@@ -91,7 +90,6 @@
 		DB3BE8D42940DE4F00248E00 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		DB3CEB062963EE2E00114A03 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DB3CEB082963EF1E00114A03 /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
-		DB3CEB0A2963F85300114A03 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		DB3CEB0C2964162E00114A03 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DB4541A42944FA6E004E5DC7 /* FirstProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirstProject.entitlements; sourceTree = "<group>"; };
 		DB4541B629461E5D004E5DC7 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
@@ -279,7 +277,6 @@
 				DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */,
 				DB3CEB062963EE2E00114A03 /* HomeView.swift */,
 				DB3CEB082963EF1E00114A03 /* HomeCardView.swift */,
-				DB3CEB0A2963F85300114A03 /* PopUpView.swift */,
 				DB3CEB0C2964162E00114A03 /* MainView.swift */,
 			);
 			path = View;
@@ -463,7 +460,6 @@
 				DB77B7D82963BF98006B3505 /* SwiftUIMailView.swift in Sources */,
 				DB5101E529631E0B000A8BBB /* SupportEmail.swift in Sources */,
 				DB687F84295FDEA6000AE74A /* NoItemView.swift in Sources */,
-				DB3CEB0B2963F85300114A03 /* PopUpView.swift in Sources */,
 				DB3BE8CF293E48B200248E00 /* AddView.swift in Sources */,
 				DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */,
 				DB3BE8CD293E380600248E00 /* ListRowView.swift in Sources */,
