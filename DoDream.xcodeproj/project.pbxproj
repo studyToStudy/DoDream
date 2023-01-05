@@ -23,7 +23,6 @@
 		DB485A202944DC3100C82D5B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A1F2944DC3100C82D5B /* WidgetKit.framework */; };
 		DB485A222944DC3100C82D5B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A212944DC3100C82D5B /* SwiftUI.framework */; };
 		DB5101E329631C01000A8BBB /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5101E229631C01000A8BBB /* UIDevice.swift */; };
-		DB5101E529631E0B000A8BBB /* SupportEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5101E429631E0B000A8BBB /* SupportEmail.swift */; };
 		DB638450295E9F4E0036BD68 /* ProfilEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */; };
 		DB687F84295FDEA6000AE74A /* NoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB687F83295FDEA6000AE74A /* NoItemView.swift */; };
 		DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */; };
@@ -35,11 +34,15 @@
 		DB7037E1292F4A85000E2881 /* DoDreamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037E0292F4A85000E2881 /* DoDreamUITestsLaunchTests.swift */; };
 		DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037ED29325369000E2881 /* MyProjectCard.swift */; };
 		DB7037F22933584E000E2881 /* TabBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037F12933584E000E2881 /* TabBox.swift */; };
+		DB748C722966AF44002DD920 /* TaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB748C712966AF44002DD920 /* TaskCategory.swift */; };
+		DB748C742966D613002DD920 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB748C732966D613002DD920 /* AddTaskView.swift */; };
 		DB77B7D82963BF98006B3505 /* SwiftUIMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB77B7D72963BF98006B3505 /* SwiftUIMailView.swift */; };
 		DB77B7D92963BF98006B3505 /* SwiftUIMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB77B7D72963BF98006B3505 /* SwiftUIMailView.swift */; };
 		DB77B7DA2963BF98006B3505 /* SwiftUIMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB77B7D72963BF98006B3505 /* SwiftUIMailView.swift */; };
 		DB77B7DB2963BF98006B3505 /* SwiftUIMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB77B7D72963BF98006B3505 /* SwiftUIMailView.swift */; };
 		DB8FF32F293A400300518174 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8FF32E293A400300518174 /* ListView.swift */; };
+		DBA69E3C2966685000A9B929 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA69E3B2966685000A9B929 /* CalendarView.swift */; };
+		DBA69E3E2966687200A9B929 /* CalendarHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA69E3D2966687200A9B929 /* CalendarHomeView.swift */; };
 		DBD744672933A6C0004C9392 /* FormattedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD744662933A6C0004C9392 /* FormattedDate.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,7 +101,6 @@
 		DB485A1F2944DC3100C82D5B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		DB485A212944DC3100C82D5B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		DB5101E229631C01000A8BBB /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
-		DB5101E429631E0B000A8BBB /* SupportEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportEmail.swift; sourceTree = "<group>"; };
 		DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilEditView.swift; sourceTree = "<group>"; };
 		DB687F83295FDEA6000AE74A /* NoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemView.swift; sourceTree = "<group>"; };
 		DB687F8529608318000AE74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = DoDream/Info.plist; sourceTree = "<group>"; };
@@ -111,10 +113,14 @@
 		DB7037E0292F4A85000E2881 /* DoDreamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoDreamUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB7037ED29325369000E2881 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		DB7037F12933584E000E2881 /* TabBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBox.swift; sourceTree = "<group>"; };
+		DB748C712966AF44002DD920 /* TaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCategory.swift; sourceTree = "<group>"; };
+		DB748C732966D613002DD920 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		DB77B7D62963BF97006B3505 /* DoDreamExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoDreamExtension-Bridging-Header.h"; sourceTree = "<group>"; };
 		DB77B7D72963BF98006B3505 /* SwiftUIMailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIMailView.swift; sourceTree = "<group>"; };
 		DB8FF32E293A400300518174 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		DB8FF330293BCA8E00518174 /* DoDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA69E3B2966685000A9B929 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		DBA69E3D2966687200A9B929 /* CalendarHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHomeView.swift; sourceTree = "<group>"; };
 		DBD744662933A6C0004C9392 /* FormattedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattedDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -256,10 +262,10 @@
 			isa = PBXGroup;
 			children = (
 				DBD744662933A6C0004C9392 /* FormattedDate.swift */,
-				DB5101E429631E0B000A8BBB /* SupportEmail.swift */,
 				DB3BE8D0293F788700248E00 /* ItemModel.swift */,
 				DB4541B629461E5D004E5DC7 /* DateValue.swift */,
 				DB4541B82946D438004E5DC7 /* Task.swift */,
+				DB748C712966AF44002DD920 /* TaskCategory.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -270,6 +276,7 @@
 				DB7037C5292F4A84000E2881 /* ContentView.swift */,
 				DB7037F12933584E000E2881 /* TabBox.swift */,
 				DB7037ED29325369000E2881 /* MyProjectCard.swift */,
+				DB3CEB0C2964162E00114A03 /* MainView.swift */,
 				DB3BE8CE293E48B200248E00 /* AddView.swift */,
 				DB3BE8CC293E380600248E00 /* ListRowView.swift */,
 				DB8FF32E293A400300518174 /* ListView.swift */,
@@ -277,7 +284,9 @@
 				DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */,
 				DB3CEB062963EE2E00114A03 /* HomeView.swift */,
 				DB3CEB082963EF1E00114A03 /* HomeCardView.swift */,
-				DB3CEB0C2964162E00114A03 /* MainView.swift */,
+				DBA69E3B2966685000A9B929 /* CalendarView.swift */,
+				DBA69E3D2966687200A9B929 /* CalendarHomeView.swift */,
+				DB748C732966D613002DD920 /* AddTaskView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -456,16 +465,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB3BE8D1293F788700248E00 /* ItemModel.swift in Sources */,
+				DBA69E3E2966687200A9B929 /* CalendarHomeView.swift in Sources */,
 				DBD744672933A6C0004C9392 /* FormattedDate.swift in Sources */,
 				DB77B7D82963BF98006B3505 /* SwiftUIMailView.swift in Sources */,
-				DB5101E529631E0B000A8BBB /* SupportEmail.swift in Sources */,
+				DB748C742966D613002DD920 /* AddTaskView.swift in Sources */,
 				DB687F84295FDEA6000AE74A /* NoItemView.swift in Sources */,
 				DB3BE8CF293E48B200248E00 /* AddView.swift in Sources */,
 				DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */,
 				DB3BE8CD293E380600248E00 /* ListRowView.swift in Sources */,
 				DB8FF32F293A400300518174 /* ListView.swift in Sources */,
 				DB3CEB072963EE2E00114A03 /* HomeView.swift in Sources */,
+				DB748C722966AF44002DD920 /* TaskCategory.swift in Sources */,
 				DB638450295E9F4E0036BD68 /* ProfilEditView.swift in Sources */,
+				DBA69E3C2966685000A9B929 /* CalendarView.swift in Sources */,
 				DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */,
 				DB3CEB092963EF1F00114A03 /* HomeCardView.swift in Sources */,
 				DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */,

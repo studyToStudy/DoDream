@@ -21,12 +21,11 @@ struct MainView: View {
                     .fontWeight(.bold)
                 
                 HStack {
-                    SubscriptionView(title: "Todo", subTitle: "\($listViewModel.items.count)", fontColor: .black, bgColor: .blue)
-                    SubscriptionView(title: "Task", subTitle: "49", fontColor: .black, bgColor: .yellow)
-                    
+                    MainViewSupport(title: "Todo", subTitle: "\($listViewModel.items.count)", fontColor: .white, bgColor: .accentColor)
+                    MainViewSupport(title: "Task", subTitle: "49", fontColor: .white, bgColor: .accentColor)
                 } //HStack
                 
-                SubscriptionView(title: "DoDream", subTitle: "99", fontColor: .white, bgColor: .gray)
+                MainViewSupport(title: "DoDream", subTitle: "", fontColor: .white, bgColor: .accentColor)
 //                SubscriptionButton(text: "", color: .red, topPadding: 10, action: {
 //                    //Execute exit code
 //                })
@@ -45,7 +44,7 @@ struct MainView_Previews: PreviewProvider {
 }
 
 
-struct SubscriptionView: View {
+struct MainViewSupport: View {
     
     var title: String
     var subTitle: String
@@ -76,28 +75,4 @@ struct SubscriptionView: View {
         .cornerRadius(20)
     }
     
-}
-
-
-struct SubscriptionButton: View {
-    
-    var text: String
-    var color: Color
-    var topPadding: CGFloat
-    var action: () -> Void
-    
-    var body: some View {
-        Button(action: action) {
-            Text(text)
-                .padding()
-                .font(.title)
-                .foregroundColor(.white)
-                .frame(maxWidth: .infinity, maxHeight: 75)
-                .background(color)
-                .cornerRadius(30)
-                .shadow(radius: 40)
-        }
-        .padding(.top, topPadding)
-        .padding(.horizontal)
-    }
 }

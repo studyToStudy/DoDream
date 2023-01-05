@@ -20,7 +20,10 @@ struct TabBox: View {
                 .tabItem {
                     Image(systemName: "pencil.line")
                 }
-//                .tag(2)
+            CalendarHomeView()
+                .tabItem {
+                    Image(systemName: "house")
+                }
             MainView()
                 .tabItem {
                     Image(systemName: "house")
