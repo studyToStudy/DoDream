@@ -28,10 +28,10 @@ struct TabBox: View {
                 .tabItem {
                     Image(systemName: "pencil.line")
                 }
-            MainView()
-                .tabItem {
-                    Image(systemName: "house")
-                }
+//            MainView()
+//                .tabItem {
+//                    Image(systemName: "house")
+//                }
             ListView()
                 .tabItem {
                     Image(systemName: "gear")

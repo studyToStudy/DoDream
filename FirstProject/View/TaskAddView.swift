@@ -22,9 +22,9 @@ struct Home: View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack{
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Welcome Back")
+                    Text("두드림")
                         .font(.callout)
-                    Text("Here's Update Today.")
+                    Text("오늘도 ..")
                         .font(.title2.bold())
                 }
                 .frame(maxWidth: .infinity,alignment: .leading)
@@ -33,7 +33,7 @@ struct Home: View {
                 CustomSegmentedBar()
                     .padding(.top,5)
                 
-                // MARK: Task View
+                // MARK: TaskView
                 TaskView()
             }
             .padding()
@@ -44,7 +44,7 @@ struct Home: View {
                 taskModel.openEditTask.toggle()
             } label: {
                 Label {
-                    Text("Add Task")
+                    Text("일정 추가하기")
                         .font(.callout)
                         .fontWeight(.semibold)
                 } icon: {
@@ -53,7 +53,7 @@ struct Home: View {
                 .foregroundColor(.white)
                 .padding(.vertical,12)
                 .padding(.horizontal)
-                .background(.black,in: Capsule())
+                .background(.blue,in: Capsule())
             }
             // MARK: Linear Gradient BG
             .padding(.top,10)
@@ -81,8 +81,6 @@ struct Home: View {
     func TaskView()->some View{
         LazyVStack(spacing: 20){
             // MARK: Custom Filtered Request View
-            // See My Dynamic Filter Video
-            // Link in Description
             DynamicFilteredView(currentTab: taskModel.currentTab) { (task: Task) in
                 TaskRowView(task: task)
             }
@@ -107,7 +105,7 @@ struct Home: View {
                 Spacer()
                 
                 // MARK: Edit Button Only for Non Completed Tasks
-                if !task.isCompleted && taskModel.currentTab != "Failed"{
+                if !task.isCompleted && taskModel.currentTab != "놓친 일정"{
                     Button {
                         taskModel.editTask = task
                         taskModel.openEditTask = true
@@ -142,7 +140,7 @@ struct Home: View {
                 }
                 .frame(maxWidth: .infinity,alignment: .leading)
                 
-                if !task.isCompleted && taskModel.currentTab != "Failed"{
+                if !task.isCompleted && taskModel.currentTab != "놓친 일정"{
                     Button {
                         // MARK: Updating Core Data
                         task.isCompleted.toggle()
@@ -168,7 +166,7 @@ struct Home: View {
     @ViewBuilder
     func CustomSegmentedBar()->some View{
         // In Case if we Missed the Task
-        let tabs = ["Today","Upcoming","Task Done","Failed"]
+        let tabs = ["오늘","다음 일정","완료된 일정","놓친 일정"]
         HStack(spacing: 0){
             ForEach(tabs,id: \.self){tab in
                 Text(tab)

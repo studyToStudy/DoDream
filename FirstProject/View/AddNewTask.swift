@@ -42,7 +42,7 @@ struct AddNewTask: View {
                 }
             
             VStack(alignment: .leading, spacing: 12) {
-                Text("Task Color")
+                Text("카드 테마")
                     .font(.caption)
                     .foregroundColor(.gray)
                 
@@ -76,7 +76,7 @@ struct AddNewTask: View {
                 .padding(.vertical,10)
             
             VStack(alignment: .leading, spacing: 12) {
-                Text("Task Deadline")
+                Text("일정")
                     .font(.caption)
                     .foregroundColor(.gray)
                 
@@ -98,7 +98,7 @@ struct AddNewTask: View {
             Divider()
             
             VStack(alignment: .leading, spacing: 12) {
-                Text("Task Title")
+                Text("일정 제목")
                     .font(.caption)
                     .foregroundColor(.gray)
                 
@@ -111,9 +111,9 @@ struct AddNewTask: View {
             Divider()
             
             // MARK: Sample Task Types
-            let taskTypes: [String] = ["Basic","Urgent","Important"]
+            let taskTypes: [String] = ["기본","중간","중요"]
             VStack(alignment: .leading, spacing: 12) {
-                Text("Task Type")
+                Text("일정 유형")
                     .font(.caption)
                     .foregroundColor(.gray)
                 

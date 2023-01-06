@@ -17,7 +17,6 @@
 		DB3BE8D52940DE4F00248E00 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8D42940DE4F00248E00 /* ListViewModel.swift */; };
 		DB3CEB072963EE2E00114A03 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEB062963EE2E00114A03 /* HomeView.swift */; };
 		DB3CEB092963EF1F00114A03 /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEB082963EF1E00114A03 /* HomeCardView.swift */; };
-		DB3CEB0D2964162E00114A03 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEB0C2964162E00114A03 /* MainView.swift */; };
 		DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B629461E5D004E5DC7 /* DateValue.swift */; };
 		DB485A202944DC3100C82D5B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A1F2944DC3100C82D5B /* WidgetKit.framework */; };
 		DB485A222944DC3100C82D5B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A212944DC3100C82D5B /* SwiftUI.framework */; };
@@ -118,7 +117,6 @@
 		DB3BE8D42940DE4F00248E00 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		DB3CEB062963EE2E00114A03 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DB3CEB082963EF1E00114A03 /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
-		DB3CEB0C2964162E00114A03 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DB4541A42944FA6E004E5DC7 /* FirstProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirstProject.entitlements; sourceTree = "<group>"; };
 		DB4541B629461E5D004E5DC7 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
 		DB4541C1294EC500004E5DC7 /* DoDreamExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DoDreamExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -306,7 +304,6 @@
 				DBBFA94E2968696900A72B53 /* Persistence.swift */,
 				DB7037F12933584E000E2881 /* TabBox.swift */,
 				DB7037ED29325369000E2881 /* MyProjectCard.swift */,
-				DB3CEB0C2964162E00114A03 /* MainView.swift */,
 				DB3BE8CE293E48B200248E00 /* AddView.swift */,
 				DB3BE8CC293E380600248E00 /* ListRowView.swift */,
 				DB8FF32E293A400300518174 /* ListView.swift */,
@@ -527,7 +524,6 @@
 				DB3CEB092963EF1F00114A03 /* HomeCardView.swift in Sources */,
 				DB748C782967179E002DD920 /* TaskModel.swift in Sources */,
 				DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */,
-				DB3CEB0D2964162E00114A03 /* MainView.swift in Sources */,
 				DB5101E329631C01000A8BBB /* UIDevice.swift in Sources */,
 				DBBFA9402968693700A72B53 /* Task_Manager.xcdatamodeld in Sources */,
 				DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */,

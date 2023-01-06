@@ -19,7 +19,7 @@ struct DynamicFilteredView<Content: View,T>: View where T: NSManagedObject {
         // MARK: Predicate to Filter current date Tasks
         let calendar = Calendar.current
         var predicate: NSPredicate!
-        if currentTab == "Today"{
+        if currentTab == "오늘"{
             let today = calendar.startOfDay(for: Date())
             let tommorow = calendar.date(byAdding: .day, value: 1, to: today)!
             
@@ -29,7 +29,7 @@ struct DynamicFilteredView<Content: View,T>: View where T: NSManagedObject {
             // This will fetch task between today and tommorow which is 24 HRS
             // 0-false, 1-true
             predicate = NSPredicate(format: "\(filterKey) >= %@ AND \(filterKey) < %@ AND isCompleted == %i", argumentArray: [today,tommorow,0])
-        }else if currentTab == "Upcoming"{
+        }else if currentTab == "다음 일정"{
             let today = calendar.startOfDay(for: calendar.date(byAdding: .day, value: 1, to: Date())!)
             let tommorow = Date.distantFuture
             
@@ -39,7 +39,7 @@ struct DynamicFilteredView<Content: View,T>: View where T: NSManagedObject {
             // This will fetch task between today and tommorow which is 24 HRS
             // 0-false, 1-true
             predicate = NSPredicate(format: "\(filterKey) >= %@ AND \(filterKey) < %@ AND isCompleted == %i", argumentArray: [today,tommorow,0])
-        }else if currentTab == "Failed"{
+        }else if currentTab == "놓친 일정"{
             let today = calendar.startOfDay(for: Date())
             let past = Date.distantPast
             
@@ -64,7 +64,7 @@ struct DynamicFilteredView<Content: View,T>: View where T: NSManagedObject {
         
         Group{
             if request.isEmpty{
-                Text("No tasks found!!!")
+                Text("일정이 없습니다")
                     .font(.system(size: 16))
                     .fontWeight(.light)
                     .offset(y: 100)

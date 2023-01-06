@@ -11,12 +11,13 @@ import SwiftUI
 @main
 struct FirstProjectApp: App {
     @StateObject var listViewModel: ListViewModel = ListViewModel()
-    
+    let persistenceController = PersistenceController.shared
     var body: some Scene {
         WindowGroup {
 //            NavigationStack {
                 ContentView()
 //            }
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
             .navigationViewStyle(StackNavigationViewStyle())
             .environmentObject(listViewModel)
             .onAppear {
