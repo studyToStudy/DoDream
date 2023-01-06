@@ -16,6 +16,7 @@ struct AddTaskView: View {
     @State private var taskCategory: Category = .수업
     @State private var animateColor: Color = Category.수업.color
     @State private var animate: Bool = false
+    @State private var tasks: [Tasks] = []
     var body: some View {
         VStack(alignment: .leading) {
             VStack(alignment: .leading, spacing: 10) {
@@ -177,6 +178,10 @@ struct AddTaskView: View {
             .foregroundColor(color)
     }
 }
+//
+//func saveButtonPressed() {
+//    calendarTaskViewModel.addItem()
+//}
 
 struct AddTaskView_Previews: PreviewProvider {
     static var previews: some View {

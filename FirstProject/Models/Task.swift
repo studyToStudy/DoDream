@@ -24,11 +24,3 @@ func getSampleDate(offset: Int)-> Date {
     
     return date ?? Date()
 }
-
-struct Tasks: Identifiable {
-    var id : UUID = .init()
-    var dateAdded: Date
-    var taskName: String
-    var taskDescription: String
-    var taskCategory: Category
-}

@@ -14,15 +14,19 @@ struct TabBox: View {
     
     var body: some View {
         TabView(selection: $selection) {
+            TaskMainView()
+                .tabItem {
+                    Image(systemName: "calendar")
+                }
+//            CalendarHomeView()
+//                .tabItem {
+//                    Image(systemName: "calendar")
+//                }
             NavigationStack(){
                 MyProjectCard()
             }
                 .tabItem {
                     Image(systemName: "pencil.line")
-                }
-            CalendarHomeView()
-                .tabItem {
-                    Image(systemName: "house")
                 }
             MainView()
                 .tabItem {

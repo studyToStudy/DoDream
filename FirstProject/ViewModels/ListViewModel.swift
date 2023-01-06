@@ -21,11 +21,6 @@ class ListViewModel: ObservableObject {
     }
     
     func getItems() {
-//        let newItems = [
-//            ItemModel(title: "마라탕먹기🍜", isCompleted: false),
-//            ItemModel(title: "신발사기👟", isCompleted: true),
-//        ]
-//        items.append(contentsOf: newItems)
         guard
             let data = UserDefaults.standard.data(forKey: itemsKey) ,
             let savedItems = try? JSONDecoder().decode([ItemModel].self, from: data)

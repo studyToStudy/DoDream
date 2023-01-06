@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct CalendarView: View {
+//    @EnvironmentObject var calendarTaskViewModel : CalendarTaskViewModel
     @State private var currentDay: Date = .init()
     @State private var tasks: [Tasks] = []
+//    @AppStorage("task") private var task: [Tasks] = []
     @State private var addNewTask: Bool = false
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
