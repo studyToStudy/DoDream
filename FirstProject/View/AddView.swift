@@ -28,20 +28,23 @@ struct AddView: View {
                 .focused($isFocused)
 
             Button(action: saveButtonPressed, label: {
-                Text("저장".uppercased())
-                    .font(.custom("THEGaeideuk", size: 25))
-                    .foregroundColor(.white)
-                    .font(.headline)
-                    .frame(height: 55)
+                Text("저장")
+                    .font(.callout)
                     .frame(maxWidth: .infinity)
-                    .background(Color.blue)
-                    .cornerRadius(10)
+                    .padding(.vertical,12)
+                    .foregroundColor(.black)
+                    .background{
+                        Capsule()
+                            .strokeBorder(.primary)
+//                            .fill(.white)
+                    }
+                    .cornerRadius(12)
                     .disabled(self.textFiledText.isEmpty)
             })
         }
         .padding(14)
         .navigationTitle("퀵노트🖊️")
-        .font(.custom("THEGaeideuk", size: 30))
+//        .font(.custom("THEGaeideuk", size: 30))
     }
     
     func saveButtonPressed() {
