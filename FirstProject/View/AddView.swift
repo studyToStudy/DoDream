@@ -30,17 +30,17 @@ struct AddView: View {
             Button(action: saveButtonPressed, label: {
                 Text("저장".uppercased())
                     .font(.custom("THEGaeideuk", size: 25))
-                    .foregroundColor(.blue)
+                    .foregroundColor(.white)
                     .font(.headline)
                     .frame(height: 55)
                     .frame(maxWidth: .infinity)
-                    .background(Color.white)
+                    .background(Color.blue)
                     .cornerRadius(10)
                     .disabled(self.textFiledText.isEmpty)
             })
         }
         .padding(14)
-        .navigationTitle("Memo🖊️")
+        .navigationTitle("퀵노트🖊️")
         .font(.custom("THEGaeideuk", size: 30))
     }
     

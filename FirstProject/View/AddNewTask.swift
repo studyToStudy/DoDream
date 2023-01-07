@@ -9,12 +9,13 @@ import SwiftUI
 
 struct AddNewTask: View {
     @EnvironmentObject var taskModel: TaskViewModel
+    @Environment(\.colorScheme) var colorShceme
     // MARK: All Environment Values in one Variable
     @Environment(\.self) var env
     @Namespace var animation
     var body: some View {
         VStack(spacing: 12){
-            Text("Edit Task")
+            Text("일정")
                 .font(.title3.bold())
                 .frame(maxWidth: .infinity)
                 .overlay(alignment: .leading) {
@@ -44,7 +45,7 @@ struct AddNewTask: View {
             VStack(alignment: .leading, spacing: 12) {
                 Text("카드 테마")
                     .font(.caption)
-                    .foregroundColor(.gray)
+                    .foregroundColor(colorShceme == .dark ? .white : .black)
                 
                 // MARK: Sample Card Colors
                 let colors: [String] = ["Yellow","Green","Blue","Purple","Red","Orange"]
@@ -78,7 +79,7 @@ struct AddNewTask: View {
             VStack(alignment: .leading, spacing: 12) {
                 Text("일정")
                     .font(.caption)
-                    .foregroundColor(.gray)
+                    .foregroundColor(colorShceme == .dark ? .white : .black)
                 
                 Text(taskModel.taskDeadline.formatted(date: .abbreviated, time: .omitted) + ", " + taskModel.taskDeadline.formatted(date: .omitted, time: .shortened))
                     .font(.callout)
@@ -91,7 +92,7 @@ struct AddNewTask: View {
                     taskModel.showDatePicker.toggle()
                 } label: {
                     Image(systemName: "calendar")
-                        .foregroundColor(.black)
+                        .foregroundColor(colorShceme == .dark ? .white : .black)
                 }
             }
             
@@ -100,7 +101,7 @@ struct AddNewTask: View {
             VStack(alignment: .leading, spacing: 12) {
                 Text("일정 제목")
                     .font(.caption)
-                    .foregroundColor(.gray)
+                    .foregroundColor(colorShceme == .dark ? .white : .black)
                 
                 TextField("", text: $taskModel.taskTitle)
                     .frame(maxWidth: .infinity)
@@ -115,7 +116,7 @@ struct AddNewTask: View {
             VStack(alignment: .leading, spacing: 12) {
                 Text("일정 유형")
                     .font(.caption)
-                    .foregroundColor(.gray)
+                    .foregroundColor(colorShceme == .dark ? .white : .black)
                 
                 HStack(spacing: 12){
                     ForEach(taskTypes,id: \.self){type in
@@ -127,14 +128,14 @@ struct AddNewTask: View {
                             .background{
                                 if taskModel.taskType == type{
                                     Capsule()
-                                        .fill(.black)
-                                        .matchedGeometryEffect(id: "TYPE", in: animation)
+                                        .fill(.primary)
+//                                        .matchedGeometryEffect(id: "TYPE", in: animation)
                                 }else{
                                     Capsule()
-                                        .strokeBorder(.black)
+                                        .strokeBorder(.primary)
                                 }
                             }
-                            .contentShape(Capsule())
+//                            .contentShape(Capsule())
                             .onTapGesture {
                                 withAnimation{taskModel.taskType = type}
                             }
@@ -153,18 +154,19 @@ struct AddNewTask: View {
                     env.dismiss()
                 }
             } label: {
-                Text("Save Task")
+                Text("저장")
                     .font(.callout)
                     .fontWeight(.semibold)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical,12)
-                    .foregroundColor(.white)
+                    .foregroundColor(.black)
                     .background{
                         Capsule()
-                            .fill(.black)
+                            .strokeBorder(.primary)
+//                            .fill(.white)
                     }
             }
-            .frame(maxHeight: .infinity,alignment: .bottom)
+            .frame(maxHeight: .infinity,alignment: .leading)
             .padding(.bottom,10)
             .disabled(taskModel.taskTitle == "")
             .opacity(taskModel.taskTitle == "" ? 0.6 : 1)
@@ -186,7 +188,7 @@ struct AddNewTask: View {
                         .datePickerStyle(.graphical)
                         .labelsHidden()
                         .padding()
-                        .background(.white,in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                        .background(colorShceme == .dark ? .blue : .white,in: RoundedRectangle(cornerRadius: 12, style: .continuous))
                         .padding()
                 }
             }

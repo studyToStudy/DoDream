@@ -311,8 +311,8 @@
 				DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */,
 				DB3CEB062963EE2E00114A03 /* HomeView.swift */,
 				DB3CEB082963EF1E00114A03 /* HomeCardView.swift */,
-				DBBFA9312968692600A72B53 /* AddNewTask.swift */,
 				DBBFA9302968692600A72B53 /* DynamicFilteredView.swift */,
+				DBBFA9312968692600A72B53 /* AddNewTask.swift */,
 				DBBFA9492968694A00A72B53 /* TaskMainView.swift */,
 				DBBFA92F2968692600A72B53 /* TaskAddView.swift */,
 				DBBFA93E2968693700A72B53 /* Task_Manager.xcdatamodeld */,
@@ -781,6 +781,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -815,6 +816,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

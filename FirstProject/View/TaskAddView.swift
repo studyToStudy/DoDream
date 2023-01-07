@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Home: View {
+    @Environment(\.colorScheme) var colorShceme
     @StateObject var taskModel: TaskViewModel = .init()
     // MARK: Matched Geometry Namespace
     @Namespace var animation
@@ -24,7 +25,7 @@ struct Home: View {
                 VStack(alignment: .leading, spacing: 8) {
                     Text("두드림")
                         .font(.callout)
-                    Text("오늘도 ..")
+                    Text("일정관리")
                         .font(.title2.bold())
                 }
                 .frame(maxWidth: .infinity,alignment: .leading)
@@ -47,6 +48,7 @@ struct Home: View {
                     Text("일정 추가하기")
                         .font(.callout)
                         .fontWeight(.semibold)
+//                        .padding()
                 } icon: {
                     Image(systemName: "plus.app.fill")
                 }
@@ -57,16 +59,18 @@ struct Home: View {
             }
             // MARK: Linear Gradient BG
             .padding(.top,10)
-            .frame(maxWidth: .infinity)
-            .background{
-                LinearGradient(colors: [
-                    .white.opacity(0.05),
-                    .white.opacity(0.4),
-                    .white.opacity(0.7),
-                    .white
-                ], startPoint: .top, endPoint: .bottom)
-                .ignoresSafeArea()
-            }
+            .frame(maxWidth: .infinity, alignment: .center)
+//            .background
+//            {
+//                LinearGradient(colors: [
+//                    .white.opacity(0.05),
+//                    .white.opacity(0.4),
+//                    .white.opacity(0.7),
+//                    .white.opacity(0.7),
+//                    .white
+//                ], startPoint: .top, endPoint: .bottom)
+//                .ignoresSafeArea()
+//            }
         }
         .fullScreenCover(isPresented: $taskModel.openEditTask) {
             taskModel.resetTaskData()
@@ -105,7 +109,7 @@ struct Home: View {
                 Spacer()
                 
                 // MARK: Edit Button Only for Non Completed Tasks
-                if !task.isCompleted && taskModel.currentTab != "놓친 일정"{
+                if !task.isCompleted || taskModel.currentTab != "놓친 일정"{
                     Button {
                         taskModel.editTask = task
                         taskModel.openEditTask = true
@@ -173,13 +177,13 @@ struct Home: View {
                     .font(.callout)
                     .fontWeight(.semibold)
                     .scaleEffect(0.9)
-                    .foregroundColor(taskModel.currentTab == tab ? .white : .black)
+                    .foregroundColor(colorShceme == .dark ? .white : .black)
                     .padding(.vertical,6)
                     .frame(maxWidth: .infinity)
                     .background{
                         if taskModel.currentTab == tab{
                             Capsule()
-                                .fill(.black)
+                                .fill(.gray)
                                 .matchedGeometryEffect(id: "TAB", in: animation)
                         }
                     }
@@ -195,5 +199,18 @@ struct Home: View {
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
         TaskMainView()
+    }
+}
+
+struct Theme {
+    static func myBackgroundColor(forScheme scheme: ColorScheme) -> Color {
+        let lightColor = Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1))
+        let darckColor = Color.black
+        
+        switch scheme {
+        case .light : return lightColor
+        case .dark : return darckColor
+        @unknown default: return lightColor
+        }
     }
 }

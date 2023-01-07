@@ -10,7 +10,8 @@
 import SwiftUI
 
 struct ContentView: View {
-//    @State private var isUnlocked = false
+    @Environment(\.colorScheme) var colorShceme
+    //    @State private var isUnlocked = false
     var body: some View {
         VStack{
             NavigationView {

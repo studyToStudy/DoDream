@@ -14,7 +14,7 @@ struct NoItemView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Text("항목을 추가해주세요")
+                Text("메모를 추가해주세요!")
                     .font(.custom("THEGaeideuk", size: 30))
                     .font(.title)
                     .fontWeight(.semibold)
