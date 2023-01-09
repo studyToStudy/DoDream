@@ -15,7 +15,6 @@
 		DB3BE8CF293E48B200248E00 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8CE293E48B200248E00 /* AddView.swift */; };
 		DB3BE8D1293F788700248E00 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8D0293F788700248E00 /* ItemModel.swift */; };
 		DB3BE8D52940DE4F00248E00 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8D42940DE4F00248E00 /* ListViewModel.swift */; };
-		DB3CEB072963EE2E00114A03 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEB062963EE2E00114A03 /* HomeView.swift */; };
 		DB3CEB092963EF1F00114A03 /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEB082963EF1E00114A03 /* HomeCardView.swift */; };
 		DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B629461E5D004E5DC7 /* DateValue.swift */; };
 		DB485A202944DC3100C82D5B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A1F2944DC3100C82D5B /* WidgetKit.framework */; };
@@ -115,7 +114,6 @@
 		DB3BE8CE293E48B200248E00 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		DB3BE8D0293F788700248E00 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		DB3BE8D42940DE4F00248E00 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
-		DB3CEB062963EE2E00114A03 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DB3CEB082963EF1E00114A03 /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
 		DB4541A42944FA6E004E5DC7 /* FirstProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirstProject.entitlements; sourceTree = "<group>"; };
 		DB4541B629461E5D004E5DC7 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
@@ -309,7 +307,6 @@
 				DB8FF32E293A400300518174 /* ListView.swift */,
 				DB687F83295FDEA6000AE74A /* NoItemView.swift */,
 				DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */,
-				DB3CEB062963EE2E00114A03 /* HomeView.swift */,
 				DB3CEB082963EF1E00114A03 /* HomeCardView.swift */,
 				DBBFA9302968692600A72B53 /* DynamicFilteredView.swift */,
 				DBBFA9312968692600A72B53 /* AddNewTask.swift */,
@@ -516,7 +513,6 @@
 				DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */,
 				DB3BE8CD293E380600248E00 /* ListRowView.swift in Sources */,
 				DB8FF32F293A400300518174 /* ListView.swift in Sources */,
-				DB3CEB072963EE2E00114A03 /* HomeView.swift in Sources */,
 				DB638450295E9F4E0036BD68 /* ProfilEditView.swift in Sources */,
 				DBBFA92B2968691800A72B53 /* TaskViewModel.swift in Sources */,
 				DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */,

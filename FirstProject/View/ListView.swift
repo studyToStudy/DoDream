@@ -17,28 +17,10 @@ struct ListView: View {
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink(destination: HomeCardView()) {
-                            Text("프로필 편집")
-                        .font(.custom("THEGaeideuk", size: 20))
-                        }.buttonStyle(PlainButtonStyle())
-//                NavigationLink(destination: ProfilEditView()) {
-                            Text("앱 버전")
-                        .font(.custom("THEGaeideuk", size: 20))
-//                        }
-                NavigationLink(destination: HomeCardView()) {
-                            Text("문의")
-                        .font(.custom("THEGaeideuk", size: 20))
-                        }
-                NavigationLink(destination: HomeCardView()) {
-                            Text("문의")
-                        .font(.custom("THEGaeideuk", size: 20))
-                        }
-                NavigationLink(destination: HomeCardView()) {
-                            Text("문의")
-                        .font(.custom("THEGaeideuk", size: 20))
-                        }
-                    .buttonStyle(PlainButtonStyle())
-                    .navigationTitle("설정")
+                Text("Hello")
+                Text("Hello")
+                Text("Hello")
+                Text("Hello")
             }
         }
     }

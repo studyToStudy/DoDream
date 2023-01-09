@@ -104,6 +104,7 @@ struct AddNewTask: View {
                     .foregroundColor(colorShceme == .dark ? .white : .black)
                 
                 TextField("", text: $taskModel.taskTitle)
+                    .keyboardType(.default)
                     .frame(maxWidth: .infinity)
                     .padding(.top,8)
             }
