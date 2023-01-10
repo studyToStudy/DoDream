@@ -24,7 +24,7 @@ struct AddView: View {
                 .background(Color(hue: 1.0, saturation: 0.0, brightness: 0.908))
                 .cornerRadius(10)
                 .foregroundColor(.black)
-                .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.gray, lineWidth: 1))
+//                .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.gray, lineWidth: 1))
                 .focused($isFocused)
 
             Button(action: saveButtonPressed, label: {

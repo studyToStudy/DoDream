@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB08B6042961B1C900520BE5 /* THE개이득.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB08B6032961B1C800520BE5 /* THE개이득.ttf */; };
-		DB08B6052961B1C900520BE5 /* THE개이득.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB08B6032961B1C800520BE5 /* THE개이득.ttf */; };
-		DB08B6062961B1C900520BE5 /* THE개이득.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB08B6032961B1C800520BE5 /* THE개이득.ttf */; };
-		DB08B6072961B1C900520BE5 /* THE개이득.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB08B6032961B1C800520BE5 /* THE개이득.ttf */; };
 		DB2FEE22296D333200167BA4 /* NormalSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FEE21296D333200167BA4 /* NormalSettingView.swift */; };
 		DB2FEE23296D333200167BA4 /* NormalSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FEE21296D333200167BA4 /* NormalSettingView.swift */; };
 		DB2FEE24296D333200167BA4 /* NormalSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FEE21296D333200167BA4 /* NormalSettingView.swift */; };
@@ -113,7 +109,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DB08B6032961B1C800520BE5 /* THE개이득.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "THE개이득.ttf"; sourceTree = "<group>"; };
 		DB2FEE21296D333200167BA4 /* NormalSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalSettingView.swift; sourceTree = "<group>"; };
 		DB2FEE26296D382C00167BA4 /* DoDreamDesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoDreamDesView.swift; sourceTree = "<group>"; };
 		DB3BE8C6293E1CBC00248E00 /* DoDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,14 +184,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DB08B6022961B1A300520BE5 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				DB08B6032961B1C800520BE5 /* THE개이득.ttf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
 		DB3BE8D32940DE1700248E00 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,7 +229,6 @@
 			isa = PBXGroup;
 			children = (
 				DB4541A42944FA6E004E5DC7 /* FirstProject.entitlements */,
-				DB08B6022961B1A300520BE5 /* Fonts */,
 				DB77B7D52963BECB006B3505 /* UIViewController */,
 				DBD7446A29350AB2004C9392 /* View */,
 				DB3BE8D32940DE1700248E00 /* ViewModels */,
@@ -457,7 +443,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB08B6072961B1C900520BE5 /* THE개이득.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +451,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB7037CB292F4A85000E2881 /* Preview Assets.xcassets in Resources */,
-				DB08B6042961B1C900520BE5 /* THE개이득.ttf in Resources */,
 				DB7037C8292F4A85000E2881 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,7 +459,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB08B6052961B1C900520BE5 /* THE개이득.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,7 +466,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB08B6062961B1C900520BE5 /* THE개이득.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

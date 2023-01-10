@@ -58,7 +58,7 @@ struct Home: View {
                 .background(.blue,in: Capsule())
             }
             // MARK: Linear Gradient BG
-            .padding(.top,10)
+            .padding()
             .frame(maxWidth: .infinity, alignment: .center)
 //            .background
 //            {
