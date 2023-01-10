@@ -11,16 +11,22 @@
 		DB08B6052961B1C900520BE5 /* THE개이득.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB08B6032961B1C800520BE5 /* THE개이득.ttf */; };
 		DB08B6062961B1C900520BE5 /* THE개이득.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB08B6032961B1C800520BE5 /* THE개이득.ttf */; };
 		DB08B6072961B1C900520BE5 /* THE개이득.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB08B6032961B1C800520BE5 /* THE개이득.ttf */; };
+		DB2FEE22296D333200167BA4 /* NormalSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FEE21296D333200167BA4 /* NormalSettingView.swift */; };
+		DB2FEE23296D333200167BA4 /* NormalSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FEE21296D333200167BA4 /* NormalSettingView.swift */; };
+		DB2FEE24296D333200167BA4 /* NormalSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FEE21296D333200167BA4 /* NormalSettingView.swift */; };
+		DB2FEE25296D333200167BA4 /* NormalSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FEE21296D333200167BA4 /* NormalSettingView.swift */; };
+		DB2FEE27296D382C00167BA4 /* DoDreamDesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FEE26296D382C00167BA4 /* DoDreamDesView.swift */; };
+		DB2FEE28296D382C00167BA4 /* DoDreamDesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FEE26296D382C00167BA4 /* DoDreamDesView.swift */; };
+		DB2FEE29296D382C00167BA4 /* DoDreamDesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FEE26296D382C00167BA4 /* DoDreamDesView.swift */; };
+		DB2FEE2A296D382C00167BA4 /* DoDreamDesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2FEE26296D382C00167BA4 /* DoDreamDesView.swift */; };
 		DB3BE8CD293E380600248E00 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8CC293E380600248E00 /* ListRowView.swift */; };
 		DB3BE8CF293E48B200248E00 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8CE293E48B200248E00 /* AddView.swift */; };
 		DB3BE8D1293F788700248E00 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8D0293F788700248E00 /* ItemModel.swift */; };
 		DB3BE8D52940DE4F00248E00 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE8D42940DE4F00248E00 /* ListViewModel.swift */; };
-		DB3CEB092963EF1F00114A03 /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEB082963EF1E00114A03 /* HomeCardView.swift */; };
 		DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4541B629461E5D004E5DC7 /* DateValue.swift */; };
 		DB485A202944DC3100C82D5B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A1F2944DC3100C82D5B /* WidgetKit.framework */; };
 		DB485A222944DC3100C82D5B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB485A212944DC3100C82D5B /* SwiftUI.framework */; };
 		DB5101E329631C01000A8BBB /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5101E229631C01000A8BBB /* UIDevice.swift */; };
-		DB638450295E9F4E0036BD68 /* ProfilEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */; };
 		DB687F84295FDEA6000AE74A /* NoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB687F83295FDEA6000AE74A /* NoItemView.swift */; };
 		DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */; };
 		DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7037C5292F4A84000E2881 /* ContentView.swift */; };
@@ -108,20 +114,20 @@
 
 /* Begin PBXFileReference section */
 		DB08B6032961B1C800520BE5 /* THE개이득.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "THE개이득.ttf"; sourceTree = "<group>"; };
+		DB2FEE21296D333200167BA4 /* NormalSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalSettingView.swift; sourceTree = "<group>"; };
+		DB2FEE26296D382C00167BA4 /* DoDreamDesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoDreamDesView.swift; sourceTree = "<group>"; };
 		DB3BE8C6293E1CBC00248E00 /* DoDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3BE8C7293E1CBC00248E00 /* DoDreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoDreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3BE8CC293E380600248E00 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		DB3BE8CE293E48B200248E00 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		DB3BE8D0293F788700248E00 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		DB3BE8D42940DE4F00248E00 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
-		DB3CEB082963EF1E00114A03 /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
 		DB4541A42944FA6E004E5DC7 /* FirstProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirstProject.entitlements; sourceTree = "<group>"; };
 		DB4541B629461E5D004E5DC7 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
 		DB4541C1294EC500004E5DC7 /* DoDreamExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DoDreamExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB485A1F2944DC3100C82D5B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		DB485A212944DC3100C82D5B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		DB5101E229631C01000A8BBB /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
-		DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilEditView.swift; sourceTree = "<group>"; };
 		DB687F83295FDEA6000AE74A /* NoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemView.swift; sourceTree = "<group>"; };
 		DB687F8529608318000AE74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = DoDream/Info.plist; sourceTree = "<group>"; };
 		DB7037C3292F4A84000E2881 /* FirstProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectApp.swift; sourceTree = "<group>"; };
@@ -305,9 +311,9 @@
 				DB3BE8CE293E48B200248E00 /* AddView.swift */,
 				DB3BE8CC293E380600248E00 /* ListRowView.swift */,
 				DB8FF32E293A400300518174 /* ListView.swift */,
+				DB2FEE21296D333200167BA4 /* NormalSettingView.swift */,
+				DB2FEE26296D382C00167BA4 /* DoDreamDesView.swift */,
 				DB687F83295FDEA6000AE74A /* NoItemView.swift */,
-				DB63844F295E9F4E0036BD68 /* ProfilEditView.swift */,
-				DB3CEB082963EF1E00114A03 /* HomeCardView.swift */,
 				DBBFA9302968692600A72B53 /* DynamicFilteredView.swift */,
 				DBBFA9312968692600A72B53 /* AddNewTask.swift */,
 				DBBFA9492968694A00A72B53 /* TaskMainView.swift */,
@@ -488,6 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2FEE25296D333200167BA4 /* NormalSettingView.swift in Sources */,
 				DBBFA9522968696900A72B53 /* Persistence.swift in Sources */,
 				DB77B7DB2963BF98006B3505 /* SwiftUIMailView.swift in Sources */,
 				DBBFA9352968692600A72B53 /* TaskAddView.swift in Sources */,
@@ -495,6 +502,7 @@
 				DBBFA9432968693700A72B53 /* Task_Manager.xcdatamodeld in Sources */,
 				DBBFA92E2968691800A72B53 /* TaskViewModel.swift in Sources */,
 				DBBFA9392968692600A72B53 /* DynamicFilteredView.swift in Sources */,
+				DB2FEE2A296D382C00167BA4 /* DoDreamDesView.swift in Sources */,
 				DBBFA93D2968692600A72B53 /* AddNewTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,19 +515,19 @@
 				DBD744672933A6C0004C9392 /* FormattedDate.swift in Sources */,
 				DBBFA94A2968694A00A72B53 /* TaskMainView.swift in Sources */,
 				DB77B7D82963BF98006B3505 /* SwiftUIMailView.swift in Sources */,
+				DB2FEE27296D382C00167BA4 /* DoDreamDesView.swift in Sources */,
 				DBBFA9362968692600A72B53 /* DynamicFilteredView.swift in Sources */,
 				DB687F84295FDEA6000AE74A /* NoItemView.swift in Sources */,
 				DB3BE8CF293E48B200248E00 /* AddView.swift in Sources */,
 				DB7037EE29325369000E2881 /* MyProjectCard.swift in Sources */,
 				DB3BE8CD293E380600248E00 /* ListRowView.swift in Sources */,
 				DB8FF32F293A400300518174 /* ListView.swift in Sources */,
-				DB638450295E9F4E0036BD68 /* ProfilEditView.swift in Sources */,
 				DBBFA92B2968691800A72B53 /* TaskViewModel.swift in Sources */,
 				DB7037C6292F4A84000E2881 /* ContentView.swift in Sources */,
 				DBBFA9322968692600A72B53 /* TaskAddView.swift in Sources */,
-				DB3CEB092963EF1F00114A03 /* HomeCardView.swift in Sources */,
 				DB748C782967179E002DD920 /* TaskModel.swift in Sources */,
 				DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */,
+				DB2FEE22296D333200167BA4 /* NormalSettingView.swift in Sources */,
 				DB5101E329631C01000A8BBB /* UIDevice.swift in Sources */,
 				DBBFA9402968693700A72B53 /* Task_Manager.xcdatamodeld in Sources */,
 				DB7037C4292F4A84000E2881 /* FirstProjectApp.swift in Sources */,
@@ -537,8 +545,10 @@
 				DBBFA9372968692600A72B53 /* DynamicFilteredView.swift in Sources */,
 				DB7037D5292F4A85000E2881 /* DoDreamTests.swift in Sources */,
 				DBBFA92C2968691800A72B53 /* TaskViewModel.swift in Sources */,
+				DB2FEE28296D382C00167BA4 /* DoDreamDesView.swift in Sources */,
 				DBBFA9332968692600A72B53 /* TaskAddView.swift in Sources */,
 				DB77B7D92963BF98006B3505 /* SwiftUIMailView.swift in Sources */,
+				DB2FEE23296D333200167BA4 /* NormalSettingView.swift in Sources */,
 				DBBFA94B2968694A00A72B53 /* TaskMainView.swift in Sources */,
 				DBBFA93B2968692600A72B53 /* AddNewTask.swift in Sources */,
 				DBBFA9412968693700A72B53 /* Task_Manager.xcdatamodeld in Sources */,
@@ -558,7 +568,9 @@
 				DBBFA93C2968692600A72B53 /* AddNewTask.swift in Sources */,
 				DB7037DF292F4A85000E2881 /* DoDreamUITests.swift in Sources */,
 				DBBFA94C2968694A00A72B53 /* TaskMainView.swift in Sources */,
+				DB2FEE24296D333200167BA4 /* NormalSettingView.swift in Sources */,
 				DBBFA9422968693700A72B53 /* Task_Manager.xcdatamodeld in Sources */,
+				DB2FEE29296D382C00167BA4 /* DoDreamDesView.swift in Sources */,
 				DB7037E1292F4A85000E2881 /* DoDreamUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

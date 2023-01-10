@@ -15,7 +15,7 @@ struct NoItemView: View {
         ScrollView {
             VStack {
                 Text("메모를 추가해주세요!")
-                    .font(.custom("THEGaeideuk", size: 30))
+                    .font(.callout)
                     .font(.title)
                     .fontWeight(.semibold)
                     .padding(.bottom)
@@ -23,7 +23,7 @@ struct NoItemView: View {
                     destination: AddView(),
                     label: {
                         Text("DoDream 추가하기!")
-                            .font(.custom("THEGaeideuk", size: 20))
+                            .font(.callout)
                             .foregroundColor(.blue)
                             .font(.headline)
                             .frame(height: 55)

@@ -17,11 +17,15 @@ struct ListView: View {
     var body: some View {
         NavigationStack {
             List {
-                Text("Hello")
-                Text("Hello")
-                Text("Hello")
-                Text("Hello")
+                NavigationLink(destination: NormalSettingView()) {
+                    Text("두드림이란")
+                }
+                NavigationLink(destination: NoItemView()) {
+                    Text("GE")
+                }
+                
             }
+            .navigationTitle("기타")
         }
     }
 }

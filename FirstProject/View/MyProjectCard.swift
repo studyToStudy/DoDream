@@ -15,11 +15,11 @@ struct MyProjectCard: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Text("\($listViewModel.items.count)")
+//                Text("\($listViewModel.items.count)")
                 if listViewModel.items.isEmpty {
                     NoItemView()
                         .transition(AnyTransition.opacity.animation(.easeIn))
-                        .font(.custom("THEGaeideuk", size: 20))
+                        .font(.callout)
                 } else {
                     List {
                     ForEach(listViewModel.items) { item in
@@ -39,7 +39,7 @@ struct MyProjectCard: View {
             }
         }
         .navigationTitle("Todo List⏰")
-        .font(.custom("THEGaeideuk", size: 40))
+        .font(.callout)
         .navigationBarItems(
             leading: EditButton(),
             trailing:

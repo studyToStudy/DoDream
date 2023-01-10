@@ -1,15 +1,15 @@
 //
-//  HomeCardView.swift
+//  DoDreamDesView.swift
 //  DoDream
 //
-//  Created by 이정후 on 2023/01/03.
+//  Created by 이정후 on 2023/01/10.
 //
 
 import SwiftUI
 
-struct HomeCardView: View {
+struct DoDreamDesView: View {
 
-    @EnvironmentObject var listViewModel: ListViewModel
+//    @EnvironmentObject var listViewModel: ListViewModel
     var card: [String] = []
 
   var body: some View {
@@ -66,7 +66,7 @@ struct HomeCardView: View {
 //          .frame(width: 150)
   
           Spacer()
-            Text("🎉")
+            Text("퀵메모를 활용하세요🎉")
             .font(Font.system(size: 15, design: .default))
             .foregroundColor(Color.white)
 //            .underline()
@@ -79,9 +79,9 @@ struct HomeCardView: View {
 
 
 
-struct HomeCardView_Previews: PreviewProvider {
+struct DoDreamDesView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeCardView()
+        DoDreamDesView()
 //            .environmentObject(ListViewModel())
     }
 }

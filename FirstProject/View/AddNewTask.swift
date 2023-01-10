@@ -115,7 +115,7 @@ struct AddNewTask: View {
             // MARK: Sample Task Types
             let taskTypes: [String] = ["기본","중간","중요"]
             VStack(alignment: .leading, spacing: 12) {
-                Text("일정 유형")
+                Text("일정 중요도")
                     .font(.caption)
                     .foregroundColor(colorShceme == .dark ? .white : .black)
                 
