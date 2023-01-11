@@ -81,6 +81,10 @@
 		DBF84A9D296E960600249CF9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF84A9B296E960600249CF9 /* Constants.swift */; };
 		DBF84A9E296E960600249CF9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF84A9B296E960600249CF9 /* Constants.swift */; };
 		DBF84A9F296E960600249CF9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF84A9B296E960600249CF9 /* Constants.swift */; };
+		DBF84AA6296E9AAE00249CF9 /* NotiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF84AA5296E9AAE00249CF9 /* NotiView.swift */; };
+		DBF84AA7296E9AAE00249CF9 /* NotiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF84AA5296E9AAE00249CF9 /* NotiView.swift */; };
+		DBF84AA8296E9AAE00249CF9 /* NotiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF84AA5296E9AAE00249CF9 /* NotiView.swift */; };
+		DBF84AA9296E9AAE00249CF9 /* NotiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF84AA5296E9AAE00249CF9 /* NotiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +166,7 @@
 		DBF84A91296E948E00249CF9 /* MailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailModel.swift; sourceTree = "<group>"; };
 		DBF84A96296E953D00249CF9 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 		DBF84A9B296E960600249CF9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DBF84AA5296E9AAE00249CF9 /* NotiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -320,6 +325,7 @@
 				DBBFA9302968692600A72B53 /* DynamicFilteredView.swift */,
 				DBBFA9312968692600A72B53 /* AddNewTask.swift */,
 				DBBFA9492968694A00A72B53 /* TaskMainView.swift */,
+				DBF84AA5296E9AAE00249CF9 /* NotiView.swift */,
 				DBBFA92F2968692600A72B53 /* TaskAddView.swift */,
 				DBF84A96296E953D00249CF9 /* MailView.swift */,
 				DBBFA93E2968693700A72B53 /* Task_Manager.xcdatamodeld */,
@@ -498,6 +504,7 @@
 				DBBFA9522968696900A72B53 /* Persistence.swift in Sources */,
 				DB77B7DB2963BF98006B3505 /* SwiftUIMailView.swift in Sources */,
 				DBBFA9352968692600A72B53 /* TaskAddView.swift in Sources */,
+				DBF84AA9296E9AAE00249CF9 /* NotiView.swift in Sources */,
 				DBBFA94D2968694A00A72B53 /* TaskMainView.swift in Sources */,
 				DBBFA9432968693700A72B53 /* Task_Manager.xcdatamodeld in Sources */,
 				DBBFA92E2968691800A72B53 /* TaskViewModel.swift in Sources */,
@@ -532,6 +539,7 @@
 				DBBFA9322968692600A72B53 /* TaskAddView.swift in Sources */,
 				DB748C782967179E002DD920 /* TaskModel.swift in Sources */,
 				DB4541B729461E5D004E5DC7 /* DateValue.swift in Sources */,
+				DBF84AA6296E9AAE00249CF9 /* NotiView.swift in Sources */,
 				DB2FEE22296D333200167BA4 /* NormalSettingView.swift in Sources */,
 				DB5101E329631C01000A8BBB /* UIDevice.swift in Sources */,
 				DBBFA9402968693700A72B53 /* Task_Manager.xcdatamodeld in Sources */,
@@ -562,6 +570,7 @@
 				DBBFA93B2968692600A72B53 /* AddNewTask.swift in Sources */,
 				DBBFA9412968693700A72B53 /* Task_Manager.xcdatamodeld in Sources */,
 				DBBFA9502968696900A72B53 /* Persistence.swift in Sources */,
+				DBF84AA7296E9AAE00249CF9 /* NotiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +592,7 @@
 				DB2FEE24296D333200167BA4 /* NormalSettingView.swift in Sources */,
 				DBBFA9422968693700A72B53 /* Task_Manager.xcdatamodeld in Sources */,
 				DB2FEE29296D382C00167BA4 /* DoDreamDesView.swift in Sources */,
+				DBF84AA8296E9AAE00249CF9 /* NotiView.swift in Sources */,
 				DB7037E1292F4A85000E2881 /* DoDreamUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
