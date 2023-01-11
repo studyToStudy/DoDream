@@ -14,8 +14,8 @@ struct FirstProjectApp: App {
     let persistenceController = PersistenceController.shared
     var body: some Scene {
         WindowGroup {
-            NotiView()
-//                ContentView()
+//            NotiView()
+                ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
             .navigationViewStyle(StackNavigationViewStyle())
             .environmentObject(listViewModel)
