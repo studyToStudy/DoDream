@@ -177,7 +177,7 @@ struct Home: View {
                     .font(.callout)
                     .fontWeight(.semibold)
                     .scaleEffect(0.9)
-                    .foregroundColor(colorShceme == .dark ? .white : .black)
+                    .foregroundColor(.black)
                     .padding(.vertical,6)
                     .frame(maxWidth: .infinity)
                     .background{

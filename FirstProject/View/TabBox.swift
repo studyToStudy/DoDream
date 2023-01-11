@@ -32,10 +32,10 @@ struct TabBox: View {
 //                .tabItem {
 //                    Image(systemName: "house")
 //                }
-//            ListView()
-//                .tabItem {
-//                    Image(systemName: "gear")
-//                }
+            ListView()
+                .tabItem {
+                    Image(systemName: "gear")
+                }
         }
     }
 }

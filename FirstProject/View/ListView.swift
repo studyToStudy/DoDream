@@ -20,8 +20,8 @@ struct ListView: View {
                 NavigationLink(destination: NormalSettingView()) {
                     Text("두드림이란")
                 }
-                NavigationLink(destination: NoItemView()) {
-                    Text("GE")
+                NavigationLink(destination: HomeView()) {
+                    Text("문의")
                 }
                 
             }
