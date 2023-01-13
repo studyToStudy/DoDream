@@ -19,10 +19,6 @@ struct FirstProjectApp: App {
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
             .navigationViewStyle(StackNavigationViewStyle())
             .environmentObject(listViewModel)
-            .onAppear {
-                print(UIDevice.current.systemVersion)
-                print(UIDevice.current.modelName)
-            }
         }
     }
 }
