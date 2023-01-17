@@ -2,7 +2,7 @@
 //  AddNewTask.swift
 //  Task Manager (iOS)
 //
-//  Created by Balaji on 02/05/22.
+//  Created by 이정후 on 2022/12/06.
 //
 
 import SwiftUI
@@ -118,7 +118,6 @@ struct AddNewTask: View {
                 Text("일정 중요도")
                     .font(.caption)
                     .foregroundColor(colorShceme == .dark ? .white : .black)
-                
                 HStack(spacing: 12){
                     ForEach(taskTypes,id: \.self){type in
                         Text(type)
