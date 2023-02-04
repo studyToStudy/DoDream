@@ -13,3 +13,5 @@
 
 # 개인정보 처리방침
 https://sites.google.com/view/dodreamprviate/%ED%99%88
+
+ios 16이상에서 지원합니다!!
